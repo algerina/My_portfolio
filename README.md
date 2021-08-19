@@ -4,7 +4,7 @@
 
 > Built my Portfolio Mobile version.
 
-![screenshot](./img/screenshotpf.png)
+![screenshot](./img/screenshotpf.jpeg)
 
 ## Built With
 
