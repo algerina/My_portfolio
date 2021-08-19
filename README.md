@@ -18,10 +18,10 @@ To get a local copy just download the repository ZIP, UNZIP then open the Index.
 
 ## Author
 
-Amel Khiri
+👤**Amel Khiri**
 
-GitHub: https://github.com/algerina
-LinkedIn: https://www.linkedin.com/in/amel-khiri-qahwadji-37a550135/
+- GitHub: [@githubhandle](https://github.com/Algerina)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/amel-khiri-qahwadji-37a550135)
 
 ## 🤝 Contributing
 
