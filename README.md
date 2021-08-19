@@ -12,6 +12,10 @@
 - CSS
 - VScode
 
+## Live Demo
+
+[My Portfolio](https://rawcdn.githack.com/algerina/My_portfolio/6d1799a4c4ac5ae0cb51d6afaa0e81d3f906f0e9/index.html)
+
 ## Getting Started
 
 To get a local copy just download the repository ZIP, UNZIP then open the Index.html file.
@@ -20,8 +24,8 @@ To get a local copy just download the repository ZIP, UNZIP then open the Index.
 
 👤**Amel Khiri**
 
-- GitHub: [@githubhandle](https://github.com/Algerina)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/amel-khiri-qahwadji-37a550135)
+- GitHub: [@Algerina](https://github.com/Algerina)
+- LinkedIn: [@Amel Khiri](https://linkedin.com/in/amel-khiri-qahwadji-37a550135)
 
 ## 🤝 Contributing
 
