@@ -1,1 +1,45 @@
-# My_portfolio
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# # My_portfolio
+
+> This project consists on Builting a  Portfolio Toolbar and Headline for  Mobile version.
+
+![screenshot](./img/screenshotpf.JPG)
+
+## Built With
+
+- HTML
+- CSS
+- VScode
+
+## Live Demo
+
+[My Portfolio](https://rawcdn.githack.com/algerina/My_portfolio/6d1799a4c4ac5ae0cb51d6afaa0e81d3f906f0e9/index.html)
+
+## Getting Started
+
+To get a local copy just download the repository ZIP, UNZIP then open the Index.html file.
+
+## Author
+
+👤**Amel Khiri**
+
+- GitHub: [@Algerina](https://github.com/Algerina)
+- LinkedIn: [@Amel Khiri](https://linkedin.com/in/amel-khiri-qahwadji-37a550135)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Figma
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
