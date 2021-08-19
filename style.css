@@ -2,14 +2,12 @@
 
 body {
   display: block;
-  margin: 0%;
+  margin: 0;
 }
 
 .header-class {
-  width: 88%;
+  width: 100%;
   height: 846px;
-  left: 0;
-  top: 0;
   margin: auto;
 }
 
@@ -17,7 +15,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 95vw;
+  width: 100%;
 }
 
 .flex-logo {
@@ -28,7 +26,6 @@ body {
 }
 
 .flex-menu {
-  margin-right: 26px;
   width: 18px;
   height: 12px;
   padding: 8px;
@@ -38,7 +35,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 114px 24px;
+  padding: 114px 25px;
   position: absolute;
   width: 452px;
   height: 544px;
@@ -69,7 +66,6 @@ body {
 .small-text {
   position: static;
   width: 327px;
-  height: 146px;
   left: 24px;
   top: 276px;
   font-family: "Poppins", sans-serif;
@@ -77,7 +73,7 @@ body {
   font-weight: normal;
   font-size: 20px;
   line-height: 24px;
-  text-align: justify;
+  text-align: left;
   color: #344563;
   flex: none;
   order: 1;
@@ -100,4 +96,5 @@ body {
   display: flex;
   justify-content: space-between;
   padding-left: 40px;
+  gap: 10px;
 }

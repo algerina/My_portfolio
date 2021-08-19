@@ -2,7 +2,7 @@
 
 # # My_portfolio
 
-> Built my Portfolio Mobile version.
+> This project consists on Builting a  Portfolio Toolbar and Headline for  Mobile version.
 
 ![screenshot](./img/screenshotpf.JPG)
 
@@ -14,14 +14,14 @@
 
 ## Getting Started
 
-To get a local copy just download the repository Zip, inzip then open the Index.html file.
+To get a local copy just download the repository ZIP, UNZIP then open the Index.html file.
 
 ## Author
 
 Amel Khiri
 
-GitHub: @githubhandle
-LinkedIn: LinkedIn
+GitHub: https://github.com/algerina
+LinkedIn: https://www.linkedin.com/in/amel-khiri-qahwadji-37a550135/
 
 ## 🤝 Contributing
 
