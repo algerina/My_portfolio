@@ -255,6 +255,8 @@ footer {
 }
 
 .end-button {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   letter-spacing: 0.03em;
   border-radius: 8px;
