@@ -2,14 +2,10 @@
 
 body {
   background-color: #e5e5e5;
-  /* display: flex; 
-  flex-direction: column; 
-  margin: 0; */
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
   color: #172b4d;
   margin: 0;
-  overflow-x: hidden;
 }
 
 .header-class {
@@ -109,7 +105,6 @@ body {
   list-style: none;
 }
 
-
 .first-container {
   display: flex;
   flex-direction: column;
@@ -118,17 +113,15 @@ body {
 }
 
 main {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .flex-container {
-  /*  display: flex;
-  flex-direction: column; */
   grid-template-columns: 5% 90% 5%;
 }
 
 .pageone {
-  background-color: #ffffff;
+  background-color: #fff;
   border: 1px;
   border-color: #dfe1e6;
   border-radius: 16px;
@@ -136,7 +129,6 @@ main {
   padding: 10%;
   margin: 0 auto;
   flex-direction: column;
-  
 }
 
 .card-image {
@@ -146,6 +138,7 @@ main {
 .flex {
   display: flex;
 }
+
 h1 {
   flex: 1;
   font-family: "Poppins", sans-serif;
@@ -155,17 +148,9 @@ h1 {
   font-size: 32px;
 }
 
- h2 {
+h2 {
   font-size: 16px;
 }
-
-/* button {
-  background: #ebebff;
-  border-radius: 8px;
-  font-size: 12px;
-  color: #6070ff;
-  border: #dfe1e6;
-} */
 
 .flex-items {
   display: flex;
@@ -180,16 +165,15 @@ li {
 .flex-button {
   display: flex;
   list-style: none;
-  background: #ebebff;
-  border-radius: 8px;
-  font-size: 12px;
-  color: #6070ff;
-  border: #dfe1e6;
   padding: 4px 12px;
 }
 
-li {
-  flex: 1;
+.custom-button {
+  background: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;
+  border: none;
+  padding: 5px 10px;
 }
 
 .grid-container {
@@ -198,30 +182,25 @@ li {
   grid-gap: 60px;
   padding: 40px;
 }
+
 .big-button {
-  display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.03em;
-
-height: 24px;
-width: 100px;
-left: 12px;
-top: 12px;
-border-radius: 0px;
-
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-radius: 8px;
+  border: 2px solid #396df2;
+  padding: 10px;
+  color: #396df2;
+  background-color: transparent;
 }
 
 .about-me {
-
-  background-color: #ffffff;
+  background-color: #fff;
   border-top-right-radius: 140px;
   display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding-bottom: 200px;
-    
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 200px;
 }
 
 .lang {
@@ -229,55 +208,64 @@ border-radius: 0px;
 }
 
 .buttons {
-display: flex;
-
+  display: flex;
 }
 
-  .button-fin {
-  
-width: 100%;
-padding-left: 10px;
-margin-top: 10px;
-border-radius: 8px;
-background-color: #F7F7F9;
-
-
-
-  }
+.button-fin {
+  display: flex;
+  width: 100%;
+  padding-left: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: #f7f7f9;
+}
 
 footer {
+  background-color: #6070ff;
+  border-top-left-radius: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 100px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-image: url("./img/contact-form.png");
+  background-size: cover;
+  margin-top: -80px;
+}
 
-    background-color: #6070FF;
-    border-top-left-radius: 140px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-     width: 100%;
-    padding-bottom: 100px;
-    font-family: "Poppins", sans-serif;
-      color: white;
-      background-image: url("./img/contact-form.png");
-      background-size: cover;
-      margin-top: -80px;
-  }
-
-  .contact-me {
-    font-weight: bold;
-font-size: 40px;
-line-height: 52px;
-/* or 130% */
-
-display: flex;
-align-items: center;
-text-align: center;
-color: white;
-  }
+.contact-me {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
 
 .left {
-display: flex;
-align-items: flex-start;
-  }
+  display: flex;
+  align-items: flex-start;
+}
 
-  /* .white-text {
-    color: white;
-  } */
+.test {
+  align-items: center;
+}
+
+.end-button {
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-radius: 8px;
+  border: 2px solid #396df2;
+  padding: 10px;
+  color: #396df2;
+  background-color: white;
+}
+
+.frame {
+  display: flex;
+  color: black;
+  list-style: none;
+}
