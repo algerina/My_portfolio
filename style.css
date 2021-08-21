@@ -50,12 +50,12 @@ body {
   top: 92px;
   background-image: url("./img/test.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 93%;
   border-bottom-left-radius: 140px;
 }
 
 .big-text {
-  width: 327px;
+  width: 80%;
   height: 150px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -68,7 +68,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 25px;
+  margin: 12px 25px auto;
 }
 
 .small-text {
@@ -132,12 +132,15 @@ main {
   border: 1px;
   border-color: #dfe1e6;
   border-radius: 16px;
-  width: 327px;
-  top: 114px;
-  left: 24px;
+  width: 70%;
   padding: 10%;
+  margin: 0 auto;
   flex-direction: column;
   
+}
+
+.card-image {
+  max-width: 100%;
 }
 
 .flex {
@@ -217,8 +220,8 @@ border-radius: 0px;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding-bottom: 100px;
-    height: 1263px;
+    padding-bottom: 200px;
+    
 }
 
 .lang {
@@ -231,10 +234,10 @@ display: flex;
 }
 
   .button-fin {
-    height: 66.7155990600586px;
-width: 303px;
-left: 12px;
-top: 169.43115234375px;
+  
+width: 100%;
+padding-left: 10px;
+margin-top: 10px;
 border-radius: 8px;
 background-color: #F7F7F9;
 
@@ -242,24 +245,20 @@ background-color: #F7F7F9;
 
   }
 
-  footer {
+footer {
 
     background-color: #6070FF;
     border-top-left-radius: 140px;
     display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-      padding-bottom: 100px;
-      height: 1263px;
-      font-family: "Poppins", sans-serif;
+    flex-direction: column;
+    align-items: center;
+     width: 100%;
+    padding-bottom: 100px;
+    font-family: "Poppins", sans-serif;
       color: white;
       background-image: url("./img/contact-form.png");
-      background-image: cover;
-
-
-
-
+      background-size: cover;
+      margin-top: -80px;
   }
 
   .contact-me {
