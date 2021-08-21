@@ -216,7 +216,7 @@ li {
 .about-me {
 
   background-color: #ffffff;
-  border-top-right-radius: 16px;
+  border-top-right-radius: 140px;
   display: flex;
     flex-direction: column;
     align-items: center;
@@ -249,12 +249,35 @@ background-color: #F7F7F9;
   footer {
 
     background-color: #6070FF;
-    border-top-left-radius: 40px;
+    border-top-left-radius: 140px;
     display: flex;
       flex-direction: column;
       align-items: center;
       width: 100%;
       padding-bottom: 100px;
       height: 1263px;
+      font-family: "Poppins", sans-serif;
+      color: white;
+      background-image: url("./img/contact-form.png");
+      background-image: right;
+
+
+
 
   }
+
+  .contact-me {
+    font-weight: bold;
+font-size: 40px;
+line-height: 52px;
+/* or 130% */
+
+display: flex;
+align-items: center;
+text-align: center;
+color: white;
+  }
+
+  /* .white-text {
+    color: white;
+  } */
