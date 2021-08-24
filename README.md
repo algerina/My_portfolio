@@ -20,12 +20,21 @@
 
 To get a local copy just download the repository ZIP, UNZIP then open the Index.html file.
 
-## Author
+## Author 1
 
 👤**Amel Khiri**
 
 - GitHub: [@Algerina](https://github.com/Algerina)
 - LinkedIn: [@Amel Khiri](https://linkedin.com/in/amel-khiri-qahwadji-37a550135)
+
+
+## Author 2
+
+👤**Lucky James**
+
+-GitHub: @Goodluck5956
+-LinkedIn: LinkedIn
+
 
 ## 🤝 Contributing
 
