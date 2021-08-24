@@ -267,6 +267,13 @@ footer {
   background-color: white;
 }
 
+.end-button:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border: 1px solid #fff;
+  color: white;
+}
+
 .frame {
   display: flex;
   color: black;
