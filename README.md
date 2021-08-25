@@ -2,7 +2,7 @@
 
 # # My_portfolio
 
-> This project consists on Builting a  Portfolio   Mobile version.
+> This project consists on Builting a  Portfolio  Mobile version, using Html and Css.
 
 ![screenshot](./img/screenshotpf.JPG)
 
@@ -32,8 +32,8 @@ To get a local copy just download the repository ZIP, UNZIP then open the Index.
 
 👤**Lucky James**
 
--GitHub: @Goodluck5956
--LinkedIn: LinkedIn
+-GitHub: [@Goodluck5956](https://github.com/Goodluck5956)
+-LinkedIn: [LinkedIn](https://www.linkedin.com/in/lucky-james-osuagwu-a8677b171/)
 
 
 ## 🤝 Contributing
