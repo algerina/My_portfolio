@@ -200,11 +200,13 @@
       feature that you need built or a <br> project that needs coding. I’d <br>
       love to help with it </p>
 
-    <input class="name-area" type="text" placeholder="Full name"><br>
-    <input class="mail-area" type="text" placeholder="Email adress"><br>
-    <textarea name="User_message" id="msg" placeholder="Write your message here" cols="30" rows="10"></textarea><br>
-    <button class="end-button" type="submit" name="submit">Get It Touch</button>
-
+    <form action="https://formspree.io/f/moqypzvo" method="post">
+      <input class="text-area" type="text" placeholder="Enter Full name" maxlength="30" required><br>
+      <input class="text-area" type="email" placeholder="name@gmail.com" required><br>
+      <textarea class="comment-section" name="User_message" id="msg" placeholder="Please Write your message here"
+        cols="30" rows="10" maxlength="500" required></textarea><br>
+      <button class="end-button" type="submit" name="submit">Get It Touch</button>
+    </form>
 
   </footer>
 </body>

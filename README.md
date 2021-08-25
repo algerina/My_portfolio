@@ -2,7 +2,7 @@
 
 # # My_portfolio
 
-> This project consists on Builting a  Portfolio Toolbar and Headline for  Mobile version.
+> This project consists on Builting a  Portfolio  Mobile version, using Html and Css.
 
 ![screenshot](./img/screenshotpf.JPG)
 
@@ -14,18 +14,27 @@
 
 ## Live Demo
 
-[My Portfolio](https://rawcdn.githack.com/algerina/My_portfolio/c6bdff37adb3bc40bde0da66c69609588c6d5461/index.html)
+[My Portfolio](https://rawcdn.githack.com/algerina/My_portfolio/7343a5b020a438d41e2554c1092fe3a8b26d9608/index.html)
 
 ## Getting Started
 
 To get a local copy just download the repository ZIP, UNZIP then open the Index.html file.
 
-## Author
+## Author 1
 
 👤**Amel Khiri**
 
 - GitHub: [@Algerina](https://github.com/Algerina)
 - LinkedIn: [@Amel Khiri](https://linkedin.com/in/amel-khiri-qahwadji-37a550135)
+
+
+## Author 2
+
+👤**Lucky James**
+
+-GitHub: [@Goodluck5956](https://github.com/Goodluck5956)
+-LinkedIn: [LinkedIn](https://www.linkedin.com/in/lucky-james-osuagwu-a8677b171/)
+
 
 ## 🤝 Contributing
 
