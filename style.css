@@ -267,7 +267,7 @@ footer {
   background-color: white;
 }
 
-.end-button:hover {
+.end-button {
   background: #6070ff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border: 1px solid #fff;
@@ -303,6 +303,14 @@ footer {
   border-radius: 8px;
   width: 100%;
   margin: 8px 20px 20px 1px;
-  border: 1px;
   padding: 4px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
 }
