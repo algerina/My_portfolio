@@ -290,6 +290,7 @@ footer {
   margin-left: 30px;
   font-size: 18px;
 }
+
 .text-area {
   width: 100%;
   border: 1px;
@@ -297,6 +298,7 @@ footer {
   padding: 5px 5px 12px 5px;
   margin-top: 8px;
 }
+
 .comment-section {
   border-radius: 8px;
   width: 100%;
