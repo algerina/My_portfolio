@@ -351,6 +351,20 @@ button:hover {
      padding: 0 0 0 1.5rem;
      margin-right: 15px;
    }
+  /* .about-me {
+     display: none;
+   } */
+
+   .about-mesd {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    height: 844px;
+    justify-content: center;
+    background-color: #fff;
+  border-top-right-radius: 140px;
+}
+   }
 
    .headline-section {
   display: none;
