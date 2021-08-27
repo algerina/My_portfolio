@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  padding: 1rem 1rem 1rem 1.5rem;
 }
 
 .flex-logo {
@@ -303,18 +303,25 @@ footer {
   padding: 4px;
 }
 
+.desktop-toolbar {
+  display: none;
+}
+
 input:focus,
 textarea:focus {
   outline: none;
+}
+.headline-sectionds {
+  display: none;
 }
 
 button:hover {
   cursor: pointer;
 }
 
-.desktop-toolbar {
+/* .desktop-toolbar {
   display: none;
-}
+} */
 
 .cards {display: none;
 }
@@ -349,9 +356,13 @@ button:hover {
   display: none;
    }
 
-   .headline-section {
-    display: flex;
-    flex-direction: column;
+   .headline-sectionds {
+    display: grid;
+    margin: 0 auto;
+    height: 80%;
+    width: 80%;
+    align-items: center;
+    justify-items: left;
     background-image: url("./img/bgxxl.png");
     margin: 20px 10px 10px 10px;
     border-bottom-left-radius: 140px;
@@ -379,9 +390,16 @@ button:hover {
   padding-top: 5rem;
 
 
+
+
 }
 
 .card {
+/* display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr;
+grid-gap: 20px;
+
   background-color: #fff;
   border: 1px;
   border-color: #dfe1e6;
@@ -389,8 +407,35 @@ button:hover {
   width: 70%;
   padding: 10%;
   margin: 0 auto;
-  flex-direction: row;
+  flex-direction: row; */
+  /* display: grid;
+    margin: 0;
+    grid-column: span 2;
+    grid-template-columns: 6fr 12fr;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 16px; */
 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 0 auto;
+    align-items: center;
+
+/* Neutrals/N0 */
+
+background: #FFFFFF;
+/* Neutrals/N40 */
+
+border: 1px solid #DFE1E6;
+border-radius: 24px;
+
+}
+
+.img-one {
+    margin: 1rem 1rem 1rem 4rem;
+    width: 49vw;
 }
 .pageone {
   display: none;
@@ -428,8 +473,14 @@ button:hover {
   align-content: flex-start;
 }
 
-.flexds {
+/* .flexds {
   display: flex;
+  margin: 1rem;
+} */
+.grid-cardone {
+/* grid-column: 2; */
+/* smargin: 3rem 1rem 6rem 4rem; */
+margin: 1% 1% 6% 4%;
 }
 
 } 
