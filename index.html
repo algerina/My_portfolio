@@ -12,19 +12,24 @@
 
 <body>
   <main>
+  
     <header class="header-class">
       <nav class="nav-container">
         <a href="#" class="flex-logo"><img src="./img/My-Logo.png" alt="logo"></a>
         <div class="flex-menu"><img src="./img/Menu-button.png" alt="menu"></div>
+        <ul class="desktop-toolbar">
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </nav>
     </header>
-
-    <section class="headline-section">
+    <section class="headline-section headline-sectionds">
       <div class="text">
-        <h1 class="big-text">I'm Amel Glad to see you!</h1>
+        <h1 class="big-text">I'm Amel <br> Glad to see you!</h1>
         <p class="small-text">I’m a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience!
-          If you like what you see and have a project you need coded,
+          feature or website Look through <br> some of my work and experience!
+          If you like what you see and have a project you <br> need coded,
           don’t hestiate to contact me.</p>
       </div>
       <h2 class="blue-text">LET'S CONNECT</h2>
@@ -35,9 +40,113 @@
         <li><a href="#"><img src="./img/github.png" alt="Github"></a></li>
         <li><a href="#"><img src="./img/angel-list.png" alt="Angel-list"></a></li>
       </ul>
-
-    </section>
+    
+  </section>
   </main>
+
+  <section class="cards">
+    <!--desktop cards secrtions-->
+    <div class="card">
+      <img class="img-one" src="./img/card1l.png" alt="card1">
+      <div class="grid-cardone">
+        <h1 class="leftds">Tonic</h1>
+        <div class="flexds">
+          <h2>Canopy</h2>
+          <ul class="list-ds">
+            <li>Black End Dev</li>
+            <li>2015</li>
+          </ul>
+        </div>
+        <p>A daily selection of privately <br>
+          personalized reads; no accounts or <br>
+          sign-ups required.</p>
+        <ul class="flex-buttonds">
+          <li><button class="custom-buttonds" type="button">html</button></li>
+          <li><button class="custom-buttonds" type="button">css</button></li>
+          <li><button class="custom-buttonds" type="button">JavaScript</button></li>
+        </ul>
+        <button class="big-buttonds" type="button">See Project</button>
+      </div>
+    </div>
+    <!--card2-->
+
+
+    <div class="card">
+      <div class="grid-cardone">
+        <h1 class="leftds">Multi-Post Stories</h1>
+        <div class="flexds">
+          <h2>Facebook</h2>
+          <ul class="flex-itemsds">
+            <li>Black End Dev</li>
+            <li>2015</li>
+          </ul>
+        </div>
+        <p class="leftds">Experimental content creation feature that allows users to <br>
+          add to an existing story over the course of a day without <br>
+          spamming their friends.</p>
+        <ul class="flex-buttonds">
+          <li><button class="custom-buttonds" type="button">html</button></li>
+          <li><button class="custom-buttonds" type="button">Ruby on Rails</button></li>
+          <li><button class="custom-buttonds" type="button">css</button></li>
+          <li><button class="custom-buttonds" type="button">JavaScript</button></li>
+        </ul>
+        <button class="big-buttonds" type="button">See Project</button>
+      </div>
+      <img class="img-one" src="./img/card2.png" alt="card2">
+
+    </div>
+
+    <div class="card">
+      <img class="img-one" src="./img/card3.png" alt="card3">
+      <div class="grid-cardone">
+        <h1 class="grid-cardone">Facebook 360</h1>
+        <div class="flexds">
+          <h2>Facebook</h2>
+          <ul class="flex-itemsds">
+            <li>Full Stack Dev</li>
+            <li>2015</li>
+          </ul>
+        </div>
+        <p class="leftds">Exploring the future of media in Facebook's first Virtual Reality <br>
+          app; a place to discover and enjoy 360 photos and videos on <br>
+          Gear VR.</p>
+        <ul class="flex-buttonds">
+          <li><button class="custom-buttonds" type="button">html</button></li>
+          <li><button class="custom-buttonds" type="button">Ruby on Rails</button></li>
+          <li><button class="custom-buttonds" type="button">css</button></li>
+          <li><button class="custom-buttonds" type="button">JavaScript</button></li>
+        </ul>
+        <button class="big-buttonds" type="button">See Projects</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="grid-cardone">
+        <h1 class="leftds">Uber Navigation</h1>
+        <div class="flexds">
+          <h2>Uber</h2>
+          <ul class="flex-itemsds">
+            <li>Lead Developer</li>
+            <li>2018</li>
+          </ul>
+        </div>
+        <p class="leftds">A smart assistant to make driving more safe, efficient, and fun <br>
+          by unlocking your most expensive computer: your car.</p>
+        <ul class="flex-buttonds">
+          <li><button class="custom-buttonds" type="button">html</button></li>
+          <li><button class="custom-buttonds" type="button">css</button></li>
+          <li><button class="custom-buttonds" type="button">JavaScript</button></li>
+        </ul>
+        <button class="big-buttonds" type="button">See Project</button>
+      </div>
+      <img class="img-one" src="./img/card4.png" alt="card2">
+
+
+    </div>
+  </section>
+
+
+  <!--mobile cards-->
   <section class="grid-container">
     <div class="pageone">
       <img class="card-image" src="./img/Snapshoot-portfolio1.svg" alt="portfolio-snapshoot1">
@@ -131,66 +240,71 @@
       <button class="big-button" type="button">See Project</button>
     </div>
   </section>
-  <section class="about-me">
 
-    <h1 class="left M-25">About <br>Me</h1>
-    <p class="footer-text M-25">
-      Hello I’m a software developer! I can help <br>
-      you build a product , feature or website <br>
-      Look through some of my work and <br>
-      experience! If you like what you see and <br>
-      have a project you need coded, don’t <br>
-      hestiate to contact me.
-    </p>
-    <h2 class="blue-text M-25">LET'S CONNECT</h2>
-    <ul class="contact">
-      <li><a href="#"><img src="./img/twitter.png" alt="Twitter"></a></li>
-      <li><a href="#"><img src="./img/Linkedin.png" alt="linkedin"></a></li>
-      <li><a href="#"><img src="./img/medium.png" alt="Medium"></a></li>
-      <li><a href="#"><img src="./img/github.png" alt="Github"></a></li>
-      <li><a href="#"><img src="./img/angel-list.png" alt="Angel-list"></a></li>
-    </ul>
-    <button class="big-button M-25" type="submit" name="submit">Get My Resume</button>
-    <ul class="frame flex-button">
-      <li>
-        <h2 class="skill">Languages</h2>
-      </li>
-      <li><img src="./img/Vector.png" alt="lang"></li>
-    </ul>
+  <!--About me section-->
+  <section class="about-me about-mesd">
+    <div class="aboutone">
+      <h1 class="left M-25">About <br>Me</h1>
+      <p class="footer-text M-25">
+        Hello I’m a software developer! I can help <br>
+        you build a product , feature or website <br>
+        Look through some of my work and <br>
+        experience! If you like what you see and <br>
+        have a project you need coded, don’t <br>
+        hestiate to contact me.
+      </p>
+      <h2 class="blue-text M-25">LET'S CONNECT</h2>
+      <ul class="contact">
+        <li><a href="#"><img src="./img/twitter.png" alt="Twitter"></a></li>
+        <li><a href="#"><img src="./img/Linkedin.png" alt="linkedin"></a></li>
+        <li><a href="#"><img src="./img/medium.png" alt="Medium"></a></li>
+        <li><a href="#"><img src="./img/github.png" alt="Github"></a></li>
+        <li><a href="#"><img src="./img/angel-list.png" alt="Angel-list"></a></li>
+      </ul>
+      <button class="big-button M-25" type="submit" name="submit">Get My Resume</button>
+    </div>
+    <div class="abouttwo">
+      <ul class="frame flex-button">
+        <li>
+          <h2 class="skill">Languages</h2>
+        </li>
+        <li><img src="./img/Vector.png" alt="lang"></li>
+      </ul>
+      <div class="aboutthree">
+        <ul class="buttons">
+          <li class="button-fin">
+            <img src="./img/js.svg" alt="js-button">
+            <h2>JavaScript</h2>
+          </li>
+        </ul>
 
-    <ul class="buttons">
-      <li class="button-fin">
-        <img src="./img/js.svg" alt="js-button">
-        <h2>JavaScript</h2>
-      </li>
-    </ul>
+        <ul class="buttons">
+          <li class="button-fin">
+            <img src="./img/html.svg" alt="html-button">
+            <h2>HTML</h2>
+          </li>
+        </ul>
 
-    <ul class="buttons">
-      <li class="button-fin">
-        <img src="./img/html.svg" alt="html-button">
-        <h2>HTML</h2>
-      </li>
-    </ul>
-
-    <ul class="buttons">
-      <li class="button-fin">
-        <img src="./img/css.svg" alt="css-button">
-        <h2>CSS</h2>
-      </li>
-    </ul>
-    <ul class="frame">
-      <li>
-        <h2 class="skill">Framworks</h2>
-      </li>
-      <li class="skill">></li>
-    </ul>
-    <ul class="frame">
-      <li>
-        <h2 class="skill">Skills</h2>
-      </li>
-      <li class="skill">></li>
-    </ul>
-
+        <ul class="buttons">
+          <li class="button-fin">
+            <img src="./img/css.svg" alt="css-button">
+            <h2>CSS</h2>
+          </li>
+        </ul>
+      </div>
+      <ul class="frame">
+        <li>
+          <h2 class="skill">Framworks</h2>
+        </li>
+        <li class="skill">></li>
+      </ul>
+      <ul class="frame">
+        <li>
+          <h2 class="skill">Skills</h2>
+        </li>
+        <li class="skill">></li>
+      </ul>
+    </div>
   </section>
 
   <footer>
