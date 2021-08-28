@@ -418,9 +418,8 @@ button:hover {
     background-color: transparent;
     transition: width 2s, height 2s, background-color 2s, transform 2s;
   }
-  
+
   .big-buttonds:hover {
-    background-color: grey;
     transform: rotate(360deg);
   }
 
@@ -460,5 +459,8 @@ button:hover {
   .list-ds {
     display: flex;
     margin: 1rem 1rem 1rem 1rem;
+  }
+  .moved:hover {
+    transform: rotate(90deg);
   }
 }
