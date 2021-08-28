@@ -2,7 +2,7 @@
 
 # # My_portfolio
 
-> This project consists on Builting a  Portfolio  Mobile version, using Html and Css.
+> This project consists on Builting a  responsive Portfolio  from the Mobile version to the Desktop version, using Html and Css.
 
 ![screenshot](./img/screenshotpf.JPG)
 
@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[My Portfolio](https://rawcdn.githack.com/algerina/My_portfolio/7343a5b020a438d41e2554c1092fe3a8b26d9608/index.html)
+[My Portfolio](https://rawcdn.githack.com/algerina/My_portfolio/169bbc4a5e07010aa74e2a05e3e15e5a3d74c32d/index.html)
 
 ## Getting Started
 
