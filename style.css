@@ -460,6 +460,7 @@ button:hover {
     display: flex;
     margin: 1rem 1rem 1rem 1rem;
   }
+  
   .moved:hover {
     transform: rotate(90deg);
   }
