@@ -370,7 +370,6 @@ button:hover {
 
   .headline-sectionds {
     display: grid;
-    width: 80%;
     align-items: center;
     justify-items: left;
     background-image: url("./img/bgxxl.png");
