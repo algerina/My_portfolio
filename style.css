@@ -416,6 +416,7 @@ button:hover {
     padding: 10px;
     color: #396df2;
     background-color: transparent;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
   }
 
   .custom-buttonds {
