@@ -368,7 +368,7 @@ button:hover {
   .headline-sectionds {
     display: grid;
     align-items: center;
-    justify-items: center;
+    justify-items: left;
     background-image: url("./img/bgxxl.png");
     margin: 20px 10px 10px 10px;
     border-bottom-left-radius: 140px;
