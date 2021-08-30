@@ -14,6 +14,7 @@ body {
 
 .header-class {
   width: 100%;
+
   /* height: 846px; */
   margin: auto;
 }
@@ -42,6 +43,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 1rem 0 0 0;
+
   /* position: absolute;
   height: 525px;
   left: calc(35% - 375px / 2);
@@ -317,7 +319,7 @@ textarea:focus {
 }
 
 .custom-gap {
- gap: 2rem;
+  gap: 2rem;
 }
 
 button:hover {
@@ -379,7 +381,6 @@ button:hover {
     background-image: url("./img/bgxxl.png");
     margin: 20px 10px 10px 10px;
     border-bottom-left-radius: 140px;
-
   }
 
   .small-text {
