@@ -319,8 +319,6 @@ button:hover {
   cursor: pointer;
 }
 
-/* desktop version */
-
 @media screen and (min-width: 900px) {
   .flex-menu {
     display: none;
