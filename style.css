@@ -24,11 +24,14 @@ body {
   padding: 1rem 1rem 1rem 1.5rem;
 }
 
-.flex-logo {
-  width: 76px;
-  height: 20px;
-  margin-left: 24px;
-  margin-top: 10px;
+.nav-container a {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #6070ff;
+
 }
 
 .flex-menu {
@@ -64,6 +67,7 @@ body {
   margin: 12px 35px auto;
 }
 
+
 .small-text {
   position: static;
   width: 327px;
@@ -82,15 +86,16 @@ body {
   margin: 21px 40px;
 }
 
-.blue-text {
+.blue-text a{
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
   color: #6070ff;
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 40px 40px;
+  font-weight: 800;
+  text-decoration: none;
 }
 
 .contact {
@@ -456,10 +461,6 @@ button:hover {
   .list-ds {
     display: flex;
     margin: 1rem 1rem 1rem 1rem;
-  }
-
-  .moved:hover {
-    transform: rotate(90deg);
   }
 
   .custom-gap {

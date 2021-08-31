@@ -24,7 +24,7 @@
   
     <header class="header-class">
       <nav class="nav-container">
-        <a href="#" class="flex-logo"><img src="./img/My-Logo.png" alt="logo"></a>
+        <a href="#" class="flex-logo">AMEL</a>
         <div class="flex-menu"><img src="./img/Menu-button.png" alt="menu"></div>
         <ul class="desktop-toolbar">
           <li><a href="#">Portfolio</a></li>
@@ -35,7 +35,7 @@
     </header>
     <section class="headline-section headline-sectionds">
       <div class="text">
-        <h1 class="big-text moved">I'm Amel <br> Glad to see you!</h1>
+        <h1 class="big-text">I'm Amel <br> Glad to see you!</h1>
         <p class="small-text">I’m a software developer! I can help you build a product ,
           feature or website Look through <br> some of my work and experience!
           If you like what you see and have a project you <br> need coded,
@@ -324,8 +324,11 @@
       love to help with it </p>
 
     <form action="https://formspree.io/f/moqypzvo" method="post">
-      <input class="text-area" type="text" placeholder="Enter Full name" maxlength="30" required><br>
-      <input class="text-area" type="email" placeholder="name@gmail.com" required><br>
+      <label for="full-name">Full Name</label>
+      <input class="text-area" type="text" placeholder="Enter Full name" name="full-name" maxlength="30" id="full-name" required><br>
+      <label for="email">Email</label>
+      <input class="text-area" type="email" placeholder="name@gmail.com"  id="email" name="email" required><br>
+      <label for="msg">Comment</label>
       <textarea class="comment-section" name="User_message" id="msg" placeholder="Please Write your message here"
         cols="30" rows="10" maxlength="500" required></textarea><br>
       <button class="end-button" type="submit" name="submit">Get It Touch</button>
