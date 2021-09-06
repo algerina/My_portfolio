@@ -98,6 +98,16 @@ body {
   text-decoration: none;
 }
 
+.hambu-menu {
+  background-color: #6070FF;
+  display: flex;
+  flex-direction: column;
+}
+
+.x-img {
+  max-width: 15px;
+}
+
 .contact {
   display: flex;
   justify-content: space-between;
