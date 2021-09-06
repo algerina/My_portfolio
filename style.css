@@ -99,13 +99,42 @@ body {
 }
 
 .hambu-menu {
-  background-color: #6070FF;
+  background-color: rgba(96, 112, 255, 1);
   display: flex;
   flex-direction: column;
+  position: fixed;
+  height: 800px;
+  top: 0;
+  width: 557px;
+  align-items: center;
+  gap: 50px;
+
+}
+.hambu-list{
+list-style: none;
+display: flex;
+flex-direction: column;
+gap: 50px;
+position: relative;
+right: 169px;
+}
+
+.hambu-child{
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 44px;
+color: #FFFFFF;
+text-decoration: none;
+text-align: left;
+
 }
 
 .x-img {
-  max-width: 15px;
+  max-width: 30px;
+  left: 193px;
+  bottom: -23px;
+  position: relative;
 }
 
 .contact {
@@ -351,6 +380,10 @@ button:hover {
   .header-class ul {
     display: flex;
     list-style: none;
+  }
+
+  .hambu-menu{
+    display: none;
   }
 
   .header-class li {
