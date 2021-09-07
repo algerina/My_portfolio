@@ -114,7 +114,8 @@ body {
   flex-direction: column;
   gap: 50px;
   position: relative;
-  right: 169px;
+  /* right: 169px; */
+  text-align: left;
 }
 
 .hambu-child {
@@ -128,7 +129,7 @@ body {
 }
 
 .x-img {
-  right: -10%;
+  right: -35px;
   top: 10px;
   min-width: 30px;
   position: relative;
