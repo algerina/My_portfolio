@@ -4,14 +4,14 @@
 
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){window.dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { window.dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-G1FFR90YL2');
-</script>
+    gtag('config', 'G-G1FFR90YL2');
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -21,24 +21,24 @@
 
 <body tabindex="0">
   <main>
-  
+
     <header class="header-class">
       <nav class="nav-container">
         <a href="#" class="flex-logo">AMEL</a>
         <div id="menu-toggle" class="flex-menu"><img src="./img/Menu-button.png" alt="menu"></div>
         <ul class="desktop-toolbar">
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
 
-      <div  class="hambu-menu">
-        <img  class="x-img" src="./img/x2.png" alt="menu">
+      <div class="hambu-menu">
+        <img class="x-img" src="./img/x2.png" alt="menu">
         <ul class="hambu-list">
-          <li ><a class="hambu-child" href="">Portfolio</a></li>
-          <li ><a class="hambu-child" href="">About</a></li>
-          <li ><a class="hambu-child" href="">Contact</a></li>
+          <li><a class="hambu-child" href="#portfolio">Portfolio</a></li>
+          <li><a class="hambu-child" href="#about">About</a></li>
+          <li><a class="hambu-child" href="#contact">Contact</a></li>
         </ul>
       </div>
 
@@ -54,13 +54,14 @@
       <h2 class="blue-text"> <a href="#">LET'S CONNECT</a> </h2>
       <ul class="contact">
         <li><a href="https://twitter.com/AmalQahwadji?s=09"><img src="./img/twitter.png" alt="Twitter"></a></li>
-        <li><a href="https://www.linkedin.com/in/amel-khiri-qahwadji-37a550135/"><img src="./img/Linkedin.png" alt="linkedin"></a></li>
+        <li><a href="https://www.linkedin.com/in/amel-khiri-qahwadji-37a550135/"><img src="./img/Linkedin.png"
+              alt="linkedin"></a></li>
         <li><a href="#"><img src="./img/medium.png" alt="Medium"></a></li>
         <li><a href="https://github.com/algerina"><img src="./img/github.png" alt="Github"></a></li>
         <li><a href="#"><img src="./img/angel-list.png" alt="Angel-list"></a></li>
       </ul>
-    
-  </section>
+
+    </section>
   </main>
 
   <section class="cards">
@@ -166,7 +167,7 @@
 
 
   <!--mobile cards-->
-  <section class="grid-container">
+  <section id="portfolio" class="grid-container">
     <div class="pageone">
       <img class="card-image" src="./img/Snapshoot-portfolio1.svg" alt="portfolio-snapshoot1">
       <h1 class="left">Tonic</h1>
@@ -261,7 +262,7 @@
   </section>
 
   <!--About me section-->
-  <section class="about-me about-mesd">
+  <section id="about" class="about-me about-mesd">
     <div class="aboutone">
       <h1 class="left M-25">About <br>Me</h1>
       <p class="footer-text M-25">
@@ -275,7 +276,8 @@
       <h2 class="blue-text M-25">LET'S CONNECT</h2>
       <ul class="contact">
         <li><a href="https://twitter.com/AmalQahwadji?s=09"><img src="./img/twitter.png" alt="Twitter"></a></li>
-        <li><a href="https://www.linkedin.com/in/amel-khiri-qahwadji-37a550135/"><img src="./img/Linkedin.png" alt="linkedin"></a></li>
+        <li><a href="https://www.linkedin.com/in/amel-khiri-qahwadji-37a550135/"><img src="./img/Linkedin.png"
+              alt="linkedin"></a></li>
         <li><a href="#"><img src="./img/medium.png" alt="Medium"></a></li>
         <li><a href="https://github.com/algerina"><img src="./img/github.png" alt="Github"></a></li>
         <li><a href="#"><img src="./img/angel-list.png" alt="Angel-list"></a></li>
@@ -326,7 +328,7 @@
     </div>
   </section>
 
-  <footer>
+  <footer id="contact">
     <h2 class="contact-me">Contact Me</h2>
     <p class="white-text">If you have an application you <br>
       are interested in developing, a <br>
@@ -335,9 +337,10 @@
 
     <form action="https://formspree.io/f/moqypzvo" method="post">
       <label for="full-name">Full Name</label>
-      <input class="text-area" type="text" placeholder="Enter Full name" name="full-name" maxlength="30" id="full-name" required><br>
+      <input class="text-area" type="text" placeholder="Enter Full name" name="full-name" maxlength="30" id="full-name"
+        required><br>
       <label for="email">Email</label>
-      <input class="text-area" type="email" placeholder="name@gmail.com"  id="email" name="email" required><br>
+      <input class="text-area" type="email" placeholder="name@gmail.com" id="email" name="email" required><br>
       <label for="msg">Comment</label>
       <textarea class="comment-section" name="User_message" id="msg" placeholder="Please Write your message here"
         cols="30" rows="10" maxlength="500" required></textarea><br>
@@ -345,6 +348,8 @@
     </form>
 
   </footer>
+
+  <script type="text/javascript" src="./main.js"></script>
 </body>
 
 </html>

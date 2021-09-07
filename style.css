@@ -31,7 +31,6 @@ body {
   text-transform: capitalize;
   text-decoration: none;
   color: blue;
-
 }
 
 .flex-menu {
@@ -67,7 +66,6 @@ body {
   margin: 12px 35px auto;
 }
 
-
 .small-text {
   position: static;
   width: 327px;
@@ -86,7 +84,7 @@ body {
   margin: 21px 40px;
 }
 
-.blue-text a{
+.blue-text a {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   color: blue;
@@ -99,41 +97,40 @@ body {
 }
 
 .hambu-menu {
+  display: none;
   background-color: rgba(96, 112, 255, 1);
-  display: flex;
   flex-direction: column;
   position: fixed;
-  height: 800px;
+  height: 100vh;
   top: 0;
   width: 557px;
   align-items: center;
   gap: 50px;
-
-}
-.hambu-list{
-list-style: none;
-display: flex;
-flex-direction: column;
-gap: 50px;
-position: relative;
-right: 169px;
 }
 
-.hambu-child{
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 44px;
-color: #FFFFFF;
-text-decoration: none;
-text-align: left;
+.hambu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  position: relative;
+  right: 169px;
+}
 
+.hambu-child {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: white;
+  text-decoration: none;
+  text-align: left;
 }
 
 .x-img {
-  max-width: 30px;
-  left: 193px;
-  bottom: -23px;
+  right: -10%;
+  top: 10px;
+  min-width: 30px;
   position: relative;
 }
 
@@ -201,7 +198,6 @@ li {
   flex: 1;
   color: #7a869a;
   font-size: 13px;
-  color: black;
 }
 
 .flex-button {
@@ -216,7 +212,6 @@ li {
   color: #6070ff;
   border: none;
   padding: 5px 10px;
-  color:blue;
 }
 
 .grid-container {
@@ -382,7 +377,7 @@ button:hover {
     list-style: none;
   }
 
-  .hambu-menu{
+  .hambu-menu {
     display: none;
   }
 
@@ -479,7 +474,6 @@ button:hover {
     color: #6070ff;
     border: none;
     padding: 5px 10px;
-    color:blue;
   }
 
   .flex-buttonds {
@@ -509,7 +503,7 @@ button:hover {
 
   .list-ds {
     display: flex;
-    flex:1;
+    flex: 1;
     margin: 1rem 1rem 1rem 1rem;
     gap: 0.5rem;
   }
