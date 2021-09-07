@@ -3,6 +3,15 @@
 <html lang="en">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { window.dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-G1FFR90YL2');
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -10,38 +19,49 @@
   <title>Amel Portfolio</title>
 </head>
 
-<body>
+<body tabindex="0">
   <main>
-  
+
     <header class="header-class">
       <nav class="nav-container">
-        <a href="#" class="flex-logo"><img src="./img/My-Logo.png" alt="logo"></a>
-        <div class="flex-menu"><img src="./img/Menu-button.png" alt="menu"></div>
+        <a href="#" class="flex-logo">AMEL</a>
+        <div id="menu-toggle" class="flex-menu"><img src="./img/Menu-button.png" alt="menu"></div>
         <ul class="desktop-toolbar">
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+
+      <div class="hambu-menu">
+        <img class="x-img" src="./img/x2.png" alt="menu">
+        <ul class="hambu-list">
+          <li><a class="hambu-child" href="#portfolio">Portfolio</a></li>
+          <li><a class="hambu-child" href="#about">About</a></li>
+          <li><a class="hambu-child" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
     </header>
     <section class="headline-section headline-sectionds">
       <div class="text">
-        <h1 class="big-text moved">I'm Amel <br> Glad to see you!</h1>
+        <h1 class="big-text">I'm Amel <br> Glad to see you!</h1>
         <p class="small-text">I’m a software developer! I can help you build a product ,
           feature or website Look through <br> some of my work and experience!
           If you like what you see and have a project you <br> need coded,
           don’t hestiate to contact me.</p>
       </div>
-      <h2 class="blue-text">LET'S CONNECT</h2>
+      <h2 class="blue-text"> <a href="#">LET'S CONNECT</a> </h2>
       <ul class="contact">
-        <li><a href="#"><img src="./img/twitter.png" alt="Twitter"></a></li>
-        <li><a href="#"><img src="./img/Linkedin.png" alt="linkedin"></a></li>
+        <li><a href="https://twitter.com/AmalQahwadji?s=09"><img src="./img/twitter.png" alt="Twitter"></a></li>
+        <li><a href="https://www.linkedin.com/in/amel-khiri-qahwadji-37a550135/"><img src="./img/Linkedin.png"
+              alt="linkedin"></a></li>
         <li><a href="#"><img src="./img/medium.png" alt="Medium"></a></li>
-        <li><a href="#"><img src="./img/github.png" alt="Github"></a></li>
+        <li><a href="https://github.com/algerina"><img src="./img/github.png" alt="Github"></a></li>
         <li><a href="#"><img src="./img/angel-list.png" alt="Angel-list"></a></li>
       </ul>
-    
-  </section>
+
+    </section>
   </main>
 
   <section class="cards">
@@ -50,10 +70,10 @@
       <img class="img-one" src="./img/card1l.png" alt="card1">
       <div class="grid-cardone">
         <h1 class="leftds">Tonic</h1>
-        <div class="flexds">
+        <div class="flexds custom-gap">
           <h2>Canopy</h2>
           <ul class="list-ds">
-            <li>Black End Dev</li>
+            <li>Back End Dev</li>
             <li>2015</li>
           </ul>
         </div>
@@ -74,9 +94,9 @@
     <div class="card">
       <div class="grid-cardone">
         <h1 class="leftds">Multi-Post Stories</h1>
-        <div class="flexds">
+        <div class="flexds custom-gap">
           <h2>Facebook</h2>
-          <ul class="flex-itemsds">
+          <ul class="list-ds">
             <li>Black End Dev</li>
             <li>2015</li>
           </ul>
@@ -100,9 +120,9 @@
       <img class="img-one" src="./img/card3.png" alt="card3">
       <div class="grid-cardone">
         <h1 class="grid-cardone">Facebook 360</h1>
-        <div class="flexds">
+        <div class="flexds custom-gap">
           <h2>Facebook</h2>
-          <ul class="flex-itemsds">
+          <ul class="list-ds">
             <li>Full Stack Dev</li>
             <li>2015</li>
           </ul>
@@ -123,9 +143,9 @@
     <div class="card">
       <div class="grid-cardone">
         <h1 class="leftds">Uber Navigation</h1>
-        <div class="flexds">
+        <div class="flexds custom-gap">
           <h2>Uber</h2>
-          <ul class="flex-itemsds">
+          <ul class="list-ds">
             <li>Lead Developer</li>
             <li>2018</li>
           </ul>
@@ -147,11 +167,11 @@
 
 
   <!--mobile cards-->
-  <section class="grid-container">
+  <section id="portfolio" class="grid-container">
     <div class="pageone">
       <img class="card-image" src="./img/Snapshoot-portfolio1.svg" alt="portfolio-snapshoot1">
       <h1 class="left">Tonic</h1>
-      <div class="flex">
+      <div class="flex custom-gap">
         <h2>CANOPY</h2>
         <ul class="flex-items">
           <li>Black End Dev</li>
@@ -170,10 +190,10 @@
     </div>
 
     <div class="pageone">
-      <img class="card-image" src="./img/Snapshoot-portfolio2.svg" alt="portfolio-snapshoot1">
+      <img class="card-image" src="./img/Snapshoot-portfolio2.svg" alt="portfolio-snapshoot2">
       <h1 class="left">Multi-Post <br>
         Stories</h1>
-      <div class="flex">
+      <div class="flex custom-gap">
         <h2>CANOPY</h2>
         <ul class="flex-items">
           <li>Black End Dev</li>
@@ -195,10 +215,10 @@
 
 
     <div class="pageone">
-      <img class="card-image" src="./img/Snapshoot-portfolio3.svg" alt="portfolio-snapshoot1">
+      <img class="card-image" src="./img/Snapshoot-portfolio3.svg" alt="portfolio-snapshoot3">
 
       <h1 class="left">Tonic</h1>
-      <div class="flex">
+      <div class="flex custom-gap">
         <h2>CANOPY</h2>
         <ul class="flex-items">
           <li>Black End Dev</li>
@@ -211,7 +231,7 @@
       <ul class="flex-button">
         <li><button class="custom-button" type="button">html</button></li>
         <li><button class="custom-button" type="button">css</button></li>
-        <li><button class="custom-button" type="button">nJavaScript</button></li>
+        <li><button class="custom-button" type="button">JavaScript</button></li>
       </ul>
       <button class="big-button" type="button">See Project</button>
     </div>
@@ -219,10 +239,10 @@
 
 
     <div class="pageone">
-      <img class="card-image" src="./img/Snapshoot-portfolio4.svg" alt="portfolio-snapshoot1">
+      <img class="card-image" src="./img/Snapshoot-portfolio4.svg" alt="portfolio-snapshoot4">
       <h1 class="left">Multi-Post <br>
         Stories</h1>
-      <div class="flex">
+      <div class="flex custom-gap">
         <h2>CANOPY</h2>
         <ul class="flex-items">
           <li>Black End Dev</li>
@@ -242,7 +262,7 @@
   </section>
 
   <!--About me section-->
-  <section class="about-me about-mesd">
+  <section id="about" class="about-me about-mesd">
     <div class="aboutone">
       <h1 class="left M-25">About <br>Me</h1>
       <p class="footer-text M-25">
@@ -255,10 +275,11 @@
       </p>
       <h2 class="blue-text M-25">LET'S CONNECT</h2>
       <ul class="contact">
-        <li><a href="#"><img src="./img/twitter.png" alt="Twitter"></a></li>
-        <li><a href="#"><img src="./img/Linkedin.png" alt="linkedin"></a></li>
+        <li><a href="https://twitter.com/AmalQahwadji?s=09"><img src="./img/twitter.png" alt="Twitter"></a></li>
+        <li><a href="https://www.linkedin.com/in/amel-khiri-qahwadji-37a550135/"><img src="./img/Linkedin.png"
+              alt="linkedin"></a></li>
         <li><a href="#"><img src="./img/medium.png" alt="Medium"></a></li>
-        <li><a href="#"><img src="./img/github.png" alt="Github"></a></li>
+        <li><a href="https://github.com/algerina"><img src="./img/github.png" alt="Github"></a></li>
         <li><a href="#"><img src="./img/angel-list.png" alt="Angel-list"></a></li>
       </ul>
       <button class="big-button M-25" type="submit" name="submit">Get My Resume</button>
@@ -307,7 +328,7 @@
     </div>
   </section>
 
-  <footer>
+  <footer id="contact">
     <h2 class="contact-me">Contact Me</h2>
     <p class="white-text">If you have an application you <br>
       are interested in developing, a <br>
@@ -315,14 +336,20 @@
       love to help with it </p>
 
     <form action="https://formspree.io/f/moqypzvo" method="post">
-      <input class="text-area" type="text" placeholder="Enter Full name" maxlength="30" required><br>
-      <input class="text-area" type="email" placeholder="name@gmail.com" required><br>
+      <label for="full-name">Full Name</label>
+      <input class="text-area" type="text" placeholder="Enter Full name" name="full-name" maxlength="30" id="full-name"
+        required><br>
+      <label for="email">Email</label>
+      <input class="text-area" type="email" placeholder="name@gmail.com" id="email" name="email" required><br>
+      <label for="msg">Comment</label>
       <textarea class="comment-section" name="User_message" id="msg" placeholder="Please Write your message here"
         cols="30" rows="10" maxlength="500" required></textarea><br>
       <button class="end-button" type="submit" name="submit">Get It Touch</button>
     </form>
 
   </footer>
+
+  <script type="text/javascript" src="./main.js"></script>
 </body>
 
 </html>
