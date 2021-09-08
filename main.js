@@ -2,9 +2,12 @@ const hambuMenu = document.querySelector('.hambu-menu');
 const closeMenu = document.querySelector('.x-img');
 const menuToggle = document.querySelector('#menu-toggle');
 const hambuChilds = document.querySelectorAll('.hambu-child');
-const seeproject = document.querySelector('.big-buttonds');
+const seeproject1 = document.querySelector('#buttonds1');
+const seeproject2 = document.querySelector('#buttonds2');
+const seeproject3 = document.querySelector('#buttonds3');
+const seeproject4 = document.querySelector('#buttonds4');
 const popupWindow = document.querySelector('#popup');
-//sconst close = document.querySelector('.close');
+// const closewindow = document.querySelector('.close');
 
 function show() {
   hambuMenu.style.display = 'flex';
@@ -20,15 +23,25 @@ hambuChilds.forEach((chld) => {
   chld.addEventListener('click', close);
 });
 
-seeproject.addEventListener('click', () => {
+seeproject1.addEventListener('click', () => {
   popupWindow.classList.add('popup-active');
 });
 
-//close.addEventListener('click', () => {
-//  popupWindow.classList.remove('close');
-//});
+seeproject2.addEventListener('click', () => {
+  popupWindow.classList.add('popup-active');
+});
 
+seeproject3.addEventListener('click', () => {
+  popupWindow.classList.add('popup-active');
+});
 
+seeproject4.addEventListener('click', () => {
+  popupWindow.classList.add('popup-active');
+});
+
+// closewindow.addEventListener('click', () => {
+//   popupWindow.classList.remove('popup-active');
+// });
 
 const cardArray = [{
   header: 'Tonic',
@@ -46,7 +59,7 @@ const cardArray = [{
 const popup = document.getElementById('popup');
 cardArray.forEach((item) => {
   popup.innerHTML += `
-  <span class="close">X</span>
+  <span onclick="popupWindow.classList.remove('popup-active')" class="close">X</span>
 <h2 class="popup-name">
 ${item.header}
 </h2>
