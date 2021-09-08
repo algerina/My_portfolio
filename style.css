@@ -119,7 +119,7 @@ body {
 
 .hambu-child {
   font-style: normal;
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 32px;
   line-height: 44px;
   color: white;
@@ -362,6 +362,7 @@ textarea:focus {
 button:hover {
   cursor: pointer;
 }
+
 #popup {
   margin-left: 10%;
   position: fixed;
@@ -387,9 +388,11 @@ button:hover {
   width: 335px;
   margin-left: 12%;
 }
+
 .popup-list-item-hidden {
   display: none;
 }
+
 .popup-list-item {
   background: #ebebff;
   border-radius: 8px;
@@ -398,6 +401,7 @@ button:hover {
   padding: 5px 10px;
   display: inline-block;
 }
+
 .popup-list {
   position: relative;
   left: 28%;
@@ -441,6 +445,7 @@ button:hover {
 .p-popup {
   margin-left: 2%;
 }
+
 @media screen and (min-width: 900px) {
   .flex-menu {
     display: none;
@@ -593,6 +598,7 @@ button:hover {
   .custom-gap {
     gap: 5rem;
   }
+
   #popup {
     right: 194px;
     position: fixed;
@@ -613,11 +619,13 @@ button:hover {
   }
 
   .popup-img {
+    display: block;
     width: 847px;
     height: 396px;
     position: relative;
     right: -128px;
   }
+
   .p-popup {
     text-align: justify;
     width: 442px;
@@ -685,11 +693,12 @@ button:hover {
     cursor: pointer;
     user-select: none;
   }
+
   .popup-image-mobile {
     display: none;
   }
 
-  .popup-img {
+  /* .popup-img {
     display: block;
-  }
+  } */
 }
