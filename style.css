@@ -520,9 +520,16 @@ button:hover {
     position: fixed;
     width: 1108px;
     height: 678px;
-    background-color: #C1C7D0;
+    background-color: white;
     top: 21px;
 }
+
+.popup-name {
+position: relative;
+left: 129px;
+
+} 
+
 .popup-img {
   width: 847px;
   height: 396px;
@@ -530,12 +537,13 @@ button:hover {
   right: -128px;
 }
 .p-popup {
-  text-align: center;
+  text-align: justify;
   width: 442px;
   position: relative;
-  left: 19px;
+  left: 119px;
   float: left;
   height: 171px;
+
 }
 
 .popup-list {
@@ -562,7 +570,23 @@ button:hover {
 .button-from {
   position: relative;
   bottom: -133px;
+  text-align: center;
+  display: flex;
+  gap: 5px;
+  left: 20%;
+  top: 15%;
+   
 }
+
+.popup-button {
+  letter-spacing: 0.03em;
+  border-radius: 8px;
+  border: 2px solid #396df2;
+  padding: 10px;
+  color: #396df2;
+  background-color: transparent;
+
+} 
 
 }
 
