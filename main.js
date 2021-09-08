@@ -64,15 +64,16 @@ cardArray.forEach((item) => {
 ${item.header}
 </h2>
 <img  src="${item.image}" class="popup-img">
+<div class="popup-image-mobile"> </div>
 <p class="p-popup">${item.text}
 </p>
 <ul class="popup-list">
 <li class="popup-list-item">${item.listbuttons[0]}</li>
 <li class="popup-list-item">${item.listbuttons[1]}</li>
 <li class="popup-list-item">${item.listbuttons[2]}</li>
-<li class="popup-list-item">${item.listbuttons[3]}</li>
-<li class="popup-list-item">${item.listbuttons[4]}</li>
-<li class="popup-list-item">${item.listbuttons[5]}</li>
+<li class="popup-list-item-hidden">${item.listbuttons[3]}</li>
+<li class="popup-list-item-hidden">${item.listbuttons[4]}</li>
+<li class="popup-list-item-hidden">${item.listbuttons[5]}</li>
 </ul>
 <div class="button-from">
 <form  action="${item.live}" method="get" target="_blank">
