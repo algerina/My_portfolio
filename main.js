@@ -85,3 +85,21 @@ ${item.header}
       <div/>
 `;
 });
+
+const form = document.getElementById('contact-form');
+const formEmail = document.getElementById('email');
+const errormsg = document.getElementById('error');
+
+function Lowercase(str) {
+  return str === str.toLowerCase();
+}
+
+form.addEventListener('submit', (event) => {
+  if (!Lowercase(formEmail.value)) {
+    errormsg.innerHTML = 'The Email Address has to be Lower Case';
+    formEmail.classList.add('email-error');
+    event.preventDefault();
+  } else {
+    errormsg.innerHTML = '';
+  }
+});
