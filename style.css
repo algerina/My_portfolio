@@ -522,6 +522,11 @@ button:hover {
     height: 678px;
     background-color: white;
     top: 21px;
+    display: none;
+}
+
+.popup-active{
+  display: block !important;
 }
 
 .popup-name {
@@ -587,6 +592,18 @@ left: 129px;
   background-color: transparent;
 
 } 
+
+.close {
+  position: relative;
+  left: 88%;
+  font-size: 29px;
+  display: inline-block;
+  transform: rotate(
+90deg);
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+}
 
 }
 
