@@ -63,6 +63,7 @@
 
     </section>
   </main>
+  <div  class="popup-window" id="popup"></div>
 
   <section class="cards">
     <!--desktop cards secrtions-->
@@ -85,7 +86,7 @@
           <li><button class="custom-buttonds" type="button">css</button></li>
           <li><button class="custom-buttonds" type="button">JavaScript</button></li>
         </ul>
-        <button class="big-buttonds" type="button">See Project</button>
+        <button id="buttonds1" class="big-buttonds" type="button">See Project</button>
       </div>
     </div>
     <!--card2-->
@@ -110,7 +111,7 @@
           <li><button class="custom-buttonds" type="button">css</button></li>
           <li><button class="custom-buttonds" type="button">JavaScript</button></li>
         </ul>
-        <button class="big-buttonds" type="button">See Project</button>
+        <button id="buttonds2" class="big-buttonds" type="button">See Project</button>
       </div>
       <img class="img-one" src="./img/card2.png" alt="card2">
 
@@ -136,7 +137,7 @@
           <li><button class="custom-buttonds" type="button">css</button></li>
           <li><button class="custom-buttonds" type="button">JavaScript</button></li>
         </ul>
-        <button class="big-buttonds" type="button">See Projects</button>
+        <button id="buttonds3" class="big-buttonds" type="button">See Projects</button>
       </div>
     </div>
 
@@ -157,13 +158,14 @@
           <li><button class="custom-buttonds" type="button">css</button></li>
           <li><button class="custom-buttonds" type="button">JavaScript</button></li>
         </ul>
-        <button class="big-buttonds" type="button">See Project</button>
+        <button id="buttonds4" class="big-buttonds" type="button">See Project</button>
       </div>
       <img class="img-one" src="./img/card4.png" alt="card2">
 
 
     </div>
   </section>
+
 
 
   <!--mobile cards-->
@@ -186,7 +188,7 @@
         <li><button class="custom-button" type="button">css</button></li>
         <li><button class="custom-button" type="button">JavaScript</button></li>
       </ul>
-      <button class="big-button" type="button">See Project</button>
+      <button id="buttonds5" onclick="popupWindow.classList.add('popup-active')" class="big-button" type="button">See Project</button>
     </div>
 
     <div class="pageone">
@@ -208,7 +210,7 @@
         <li><button class="custom-button" type="button">css</button></li>
         <li><button class="custom-button" type="button">JavaScript</button></li>
       </ul>
-      <button class="big-button" type="button">See Projects</button>
+      <button id="buttonds6" onclick="popupWindow.classList.add('popup-active')" class="big-button" type="button">See Projects</button>
     </div>
 
 
@@ -233,7 +235,7 @@
         <li><button class="custom-button" type="button">css</button></li>
         <li><button class="custom-button" type="button">JavaScript</button></li>
       </ul>
-      <button class="big-button" type="button">See Project</button>
+      <button id="buttonds7" onclick="popupWindow.classList.add('popup-active')" class="big-button" type="button">See Project</button>
     </div>
 
 
@@ -257,7 +259,7 @@
         <li><button class="custom-button" type="button">css</button></li>
         <li><button class="custom-button" type="button">JavaScript</button></li>
       </ul>
-      <button class="big-button" type="button">See Project</button>
+      <button id="buttonds8" onclick="popupWindow.classList.add('popup-active')" class="big-button" type="button">See Project</button>
     </div>
   </section>
 
@@ -335,7 +337,7 @@
       feature that you need built or a <br> project that needs coding. I’d <br>
       love to help with it </p>
 
-    <form action="https://formspree.io/f/moqypzvo" method="post">
+    <form action="https://formspree.io/f/moqypzvo" method="post" id="contact-form" >
       <label for="full-name">Full Name</label>
       <input class="text-area" type="text" placeholder="Enter Full name" name="full-name" maxlength="30" id="full-name"
         required><br>
@@ -345,6 +347,7 @@
       <textarea class="comment-section" name="User_message" id="msg" placeholder="Please Write your message here"
         cols="30" rows="10" maxlength="500" required></textarea><br>
       <button class="end-button" type="submit" name="submit">Get It Touch</button>
+   <div id="error" class="form-error"></div>
     </form>
 
   </footer>
