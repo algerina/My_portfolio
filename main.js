@@ -7,7 +7,6 @@ const seeproject2 = document.querySelector('#buttonds2');
 const seeproject3 = document.querySelector('#buttonds3');
 const seeproject4 = document.querySelector('#buttonds4');
 const popupWindow = document.querySelector('#popup');
-// const closewindow = document.querySelector('.close');
 
 function show() {
   hambuMenu.style.display = 'flex';
@@ -38,10 +37,6 @@ seeproject3.addEventListener('click', () => {
 seeproject4.addEventListener('click', () => {
   popupWindow.classList.add('popup-active');
 });
-
-// closewindow.addEventListener('click', () => {
-//   popupWindow.classList.remove('popup-active');
-// });
 
 const cardArray = [{
   header: 'Tonic',
