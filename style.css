@@ -515,13 +515,54 @@ button:hover {
   .custom-gap {
     gap: 5rem;
   }
-
   #popup {
-position: fixed;
-width: 1108px;
-height: 586px;
-background-color: white;
-top: 15px;
-
-  }
+    right: 194px;
+    position: fixed;
+    width: 1108px;
+    height: 678px;
+    background-color: #C1C7D0;
+    top: 21px;
 }
+.popup-img {
+  width: 847px;
+  height: 396px;
+  position: relative;
+  right: -128px;
+}
+.p-popup {
+  text-align: center;
+  width: 442px;
+  position: relative;
+  left: 19px;
+  float: left;
+  height: 171px;
+}
+
+.popup-list {
+  gap: 11px;
+  float: right;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 260px;
+  position: relative;
+  left: -214px;
+  column-gap: 8px;
+}
+
+.popup-list-item{
+  background: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;
+  border: none;
+  padding: 5px 10px;
+
+}
+
+.button-from {
+  position: relative;
+  bottom: -133px;
+}
+
+}
+
