@@ -515,4 +515,13 @@ button:hover {
   .custom-gap {
     gap: 5rem;
   }
+
+  #popup {
+position: fixed;
+width: 1108px;
+height: 586px;
+background-color: white;
+top: 15px;
+
+  }
 }
