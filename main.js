@@ -4,6 +4,7 @@ const menuToggle = document.querySelector('#menu-toggle');
 const hambuChilds = document.querySelectorAll('.hambu-child');
 const seeproject = document.querySelector('.big-buttonds');
 const popupWindow = document.querySelector('#popup');
+//sconst close = document.querySelector('.close');
 
 function show() {
   hambuMenu.style.display = 'flex';
@@ -22,6 +23,12 @@ hambuChilds.forEach((chld) => {
 seeproject.addEventListener('click', () => {
   popupWindow.classList.add('popup-active');
 });
+
+//close.addEventListener('click', () => {
+//  popupWindow.classList.remove('close');
+//});
+
+
 
 const cardArray = [{
   header: 'Tonic',
