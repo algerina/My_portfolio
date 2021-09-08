@@ -362,6 +362,23 @@ textarea:focus {
 button:hover {
   cursor: pointer;
 }
+#popup {
+  margin-left: 10%;
+  position: fixed;
+  width: 411px;
+  height: 560px;
+  background-color: white;
+  top: 21px;
+  display: none;
+}
+
+.popup-active{
+display: block !important;
+}
+
+.img-popup{
+display: none;
+}
 
 @media screen and (min-width: 900px) {
   .flex-menu {
