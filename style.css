@@ -408,13 +408,13 @@ button:hover {
 }
 
 .button-from {
-  top: 0;
   position: relative;
   bottom: -133px;
   text-align: center;
   display: flex;
   gap: 5px;
   left: 29%;
+  top: 22%;
 }
 
 .popup-button {

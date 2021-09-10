@@ -43,7 +43,7 @@ const cardArray = [{
   list: ['Canopy', 'Back End Dev'],
   image: './img/popupdesk.png',
   text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s',
-  listbuttons: ['html', 'css', 'javascript'],
+  listbuttons: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
   live: 'https://algerina.github.io/My_portfolio/',
   source: 'https://github.com/algerina',
 
@@ -53,7 +53,7 @@ const cardArray = [{
   list: ['Canopy', 'Back End Dev', '2015'],
   image: './img/card3.png',
   text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s',
-  listbuttons: ['html', 'css', 'javascript'],
+  listbuttons: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
   live: 'https://algerina.github.io/My_portfolio/',
   source: 'https://github.com/algerina',
 
@@ -64,7 +64,7 @@ const cardArray = [{
   list: ['Facebook', 'Back End Dev', '2015'],
   image: './img/card3.png',
   text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s',
-  listbuttons: ['html', 'css', 'javascript'],
+  listbuttons: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
   live: 'https://algerina.github.io/My_portfolio/',
   source: 'https://github.com/algerina',
 
@@ -75,7 +75,7 @@ const cardArray = [{
   list: ['Uber', 'Lead developer', '2018'],
   image: './img/card4.png',
   text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s',
-  listbuttons: ['html', 'css', 'javascript'],
+  listbuttons: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
   live: 'https://algerina.github.io/My_portfolio/',
   source: 'https://github.com/algerina',
 
@@ -130,17 +130,4 @@ const populatePopup = (num) => {
 // <li class="popup-list-item">${item.listbuttons[0]}</li>
 // <li class="popup-list-item">${item.listbuttons[1]}</li>
 // <li class="popup-list-item">${item.listbuttons[2]}</li>
-// <li class="popup-list-item-hidden">${item.listbuttons[3]}</li>
-// <li class="popup-list-item-hidden">${item.listbuttons[4]}</li>
-// <li class="popup-list-item-hidden">${item.listbuttons[5]}</li>
-// </ul>
-// <div class="button-from">
-// <form  action="${item.live}" method="get" target="_blank">
-//          <button class="popup-button" type="submit">See Live</button>
-//       </form>
-//  <form action="${item.source}" method="get" target="_blank">
-//          <button class="popup-button" type="submit">See Source</button>
-//       </form>
-//       <div/>
-// `;
-// });
+// <li class="popup-list-item-hidden">${i
