@@ -80,3 +80,29 @@ ${item.header}
       <div/>
 `;
 });
+
+const formStorage = document.getElementById('contact-me');
+const nameStore = formStorage.elements.fullName;
+const emailStore = formStorage.getElement.email;
+const messageStore = formStorage.elements.userMessage;
+
+function dataStorage() {
+  const formData = {
+
+    fullName: nameStore.value,
+    email: emailStore.value,
+    useMessage: messageStore.value,
+};
+localStorage.setItems('formData', JSON.stringify(formData));
+
+}
+
+nameStore.onchange = dataStorage;
+emailStore.onchange = dataStorage;
+messageStore.onchange = dataStorage;
+
+const storeData = JSON.parse(localStorage.getItem('formData'));
+
+nameStore.value = storeData.fullName;
+emailStore.value = storeData.email;
+messageStore.value = storeData.useMessage;
