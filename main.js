@@ -81,15 +81,15 @@ ${item.header}
 `;
 });
 
-const formStorage = document.getElementById('contact-me');
-const nameStore = formStorage.elements.fullName;
+const formStorage = document.getElementById('contact-form');
+const nameStore = formStorage.elements.full-name;
 const emailStore = formStorage.getElement.email;
-const messageStore = formStorage.elements.userMessage;
+const messageStore = formStorage.elements.User-message;
 
 function dataStorage() {
   const formData = {
 
-    fullName: nameStore.value,
+    'full-name': nameStore.value,
     email: emailStore.value,
     useMessage: messageStore.value,
 };
