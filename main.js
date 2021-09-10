@@ -81,28 +81,46 @@ ${item.header}
 `;
 });
 
+const form = document.getElementById('contact-form');
+const formEmail = document.getElementById('email');
+const errormsg = document.getElementById('error');
+
+function Lowercase(str) {
+  return str === str.toLowerCase();
+}
+
+form.addEventListener('submit', (event) => {
+  if (!Lowercase(formEmail.value)) {
+    errormsg.innerHTML = 'The Email Address has to be Lower Case';
+    formEmail.classList.add('email-error');
+    event.preventDefault();
+  } else {
+    errormsg.innerHTML = '';
+  }
+});
+
 const formStorage = document.getElementById('contact-form');
-const nameStore = formStorage.elements.full-name;
+//const nameStore = formStorage.elements.full-name; 
 const emailStore = formStorage.getElement.email;
-const messageStore = formStorage.elements.User-message;
+//const messageStore = formStorage.elements.User-message;
 
 function dataStorage() {
   const formData = {
 
-    'full-name': nameStore.value,
+  //  'full-name': nameStore.value,
     email: emailStore.value,
-    useMessage: messageStore.value,
+   // userMessage: messageStore.value,
 };
 localStorage.setItems('formData', JSON.stringify(formData));
 
 }
 
-nameStore.onchange = dataStorage;
+// nameStore.onchange = dataStorage;
 emailStore.onchange = dataStorage;
-messageStore.onchange = dataStorage;
+// messageStore.onchange = dataStorage;
 
 const storeData = JSON.parse(localStorage.getItem('formData'));
 
-nameStore.value = storeData.fullName;
+//nameStore.value = storeData.fullName;
 emailStore.value = storeData.email;
-messageStore.value = storeData.useMessage;
+//messageStore.value = storeData.useMessage;
