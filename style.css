@@ -446,6 +446,17 @@ button:hover {
   margin-left: 2%;
 }
 
+.list-ds {
+  display: flex;
+  flex: 1;
+  margin: 1rem 1rem 1rem 1rem;
+  gap: 0.5rem;
+}
+
+  .list-ds li {
+    color: darkslategrey;
+  }
+
 @media screen and (min-width: 900px) {
   .flex-menu {
     display: none;
@@ -603,7 +614,7 @@ button:hover {
     right: 194px;
     position: fixed;
     width: 1108px;
-    height: 678px;
+    height: 700px;
     background-color: white;
     top: 21px;
     display: none;
@@ -697,4 +708,10 @@ button:hover {
   .popup-image-mobile {
     display: none;
   }
+
+  .header2{}
+
+  .header-list{}
+
+  .haeder-list-item{}
 }

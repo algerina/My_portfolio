@@ -40,6 +40,8 @@ seeproject4.addEventListener('click', () => {
 
 const cardArray = [{
   header: 'Multi-Post Stories',
+  header2: 'Canopy',
+  heaederlist: ['Back End Dev', '2015'],
   list: ['Canopy', 'Back End Dev'],
   image: './img/popupdesk.png',
   text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s',
@@ -50,8 +52,10 @@ const cardArray = [{
 },
 {
   header: 'Tonic',
+  header2: 'Facebook',
+  heaederlist: ['Back End Dev', '2015'],
   list: ['Canopy', 'Back End Dev', '2015'],
-  image: './img/card3.png',
+  image: './img/card2.png',
   text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s',
   listbuttons: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
   live: 'https://algerina.github.io/My_portfolio/',
@@ -61,6 +65,8 @@ const cardArray = [{
 
 {
   header: 'Facebook 360',
+  header2: 'Facebook',
+  heaederlist: ['Full Stack Dev', '2015'],
   list: ['Facebook', 'Back End Dev', '2015'],
   image: './img/card3.png',
   text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s',
@@ -72,6 +78,8 @@ const cardArray = [{
 
 {
   header: 'Uber Navigation',
+  heaederlist: ['Lead Developer', '2018'],
+  header2: 'Uber',
   list: ['Uber', 'Lead developer', '2018'],
   image: './img/card4.png',
   text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s',
@@ -79,20 +87,27 @@ const cardArray = [{
   live: 'https://algerina.github.io/My_portfolio/',
   source: 'https://github.com/algerina',
 
-}
+},
 
 ];
 
 const popup = document.getElementById('popup');
-const projectButtons = document.querySelectorAll(".project-button")
+const projectButtons = document.querySelectorAll('.project-button');
 
 const populatePopup = (num) => {
-  projectButtons.forEach(item => {
+  projectButtons.forEach(() => {
     popup.innerHTML = `
     <span onclick="popupWindow.classList.remove('popup-active')" class="close">X</span>
   <h2 class="popup-name">
   ${cardArray[num].header}
   </h2>
+  <div class="flexds custom-gap">
+  <h2>${cardArray[num].header2}</h2>
+  <ul class="list-ds">
+    <li>${cardArray[num].heaederlist[0]}</li>
+    <li>${cardArray[num].heaederlist[1]}</li>
+  </ul>
+</div>
   <img  src="${cardArray[num].image}" class="popup-img">
   <div class="popup-image-mobile"> </div>
   <p class="p-popup">${cardArray[num].text}
@@ -114,8 +129,8 @@ const populatePopup = (num) => {
         </form>
         <div/>
   `;
-  })
-}
+  });
+};
 // cardArray.forEach((item) => {
 //   popup.innerHTML += `
 //   <span onclick="popupWindow.classList.remove('popup-active')" class="close">X</span>
