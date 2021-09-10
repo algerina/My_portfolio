@@ -102,7 +102,7 @@ form.addEventListener('submit', (event) => {
 const formStorage = document.getElementById('contact-form');
 const nameStore = formStorage.elements.fullname;
 const emailStore = formStorage.elements.email;
-const messageStore = formStorage.elements.User_message;
+const messageStore = formStorage.elements.usermessage;
 
 function dataStorage() {
   const formData = {
