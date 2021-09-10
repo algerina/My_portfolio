@@ -100,27 +100,27 @@ form.addEventListener('submit', (event) => {
 });
 
 const formStorage = document.getElementById('contact-form');
-//const nameStore = formStorage.elements.full-name; 
+const nameStore = formStorage.elements.fullname; 
 const emailStore = formStorage.getElement.email;
-//const messageStore = formStorage.elements.User-message;
+const messageStore = formStorage.elements.usermessage;
 
 function dataStorage() {
   const formData = {
 
-  //  'full-name': nameStore.value,
+  fullname: nameStore.value,
     email: emailStore.value,
-   // userMessage: messageStore.value,
+   usermessage: messageStore.value,
 };
 localStorage.setItems('formData', JSON.stringify(formData));
 
 }
 
-// nameStore.onchange = dataStorage;
+nameStore.onchange = dataStorage;
 emailStore.onchange = dataStorage;
-// messageStore.onchange = dataStorage;
+messageStore.onchange = dataStorage;
 
 const storeData = JSON.parse(localStorage.getItem('formData'));
 
-//nameStore.value = storeData.fullName;
+nameStore.value = storeData.fullname;
 emailStore.value = storeData.email;
-//messageStore.value = storeData.useMessage;
+messageStore.value = storeData.usemessage;
