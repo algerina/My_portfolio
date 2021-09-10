@@ -100,19 +100,18 @@ form.addEventListener('submit', (event) => {
 });
 
 const formStorage = document.getElementById('contact-form');
-const nameStore = formStorage.elements.fullname; 
-const emailStore = formStorage.getElement.email;
-const messageStore = formStorage.elements.usermessage;
+const nameStore = formStorage.elements.fullname;
+const emailStore = formStorage.elements.email;
+const messageStore = formStorage.elements.User_message;
 
 function dataStorage() {
   const formData = {
 
-  fullname: nameStore.value,
+    name: nameStore.value,
     email: emailStore.value,
-   usermessage: messageStore.value,
-};
-localStorage.setItems('formData', JSON.stringify(formData));
-
+    message: messageStore.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
 }
 
 nameStore.onchange = dataStorage;
@@ -121,6 +120,6 @@ messageStore.onchange = dataStorage;
 
 const storeData = JSON.parse(localStorage.getItem('formData'));
 
-nameStore.value = storeData.fullname;
+nameStore.value = storeData.name;
 emailStore.value = storeData.email;
-messageStore.value = storeData.usemessage;
+messageStore.value = storeData.message;
