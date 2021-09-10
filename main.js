@@ -8,9 +8,7 @@ const seeproject3 = document.querySelector('#buttonds3');
 const seeproject4 = document.querySelector('#buttonds4');
 const popupWindow = document.querySelector('#popup');
 
-function show() {
-  hambuMenu.style.display = 'flex';
-}
+const show = () => hambuMenu.style.display = 'flex';
 
 function close() {
   hambuMenu.style.display = 'none';
@@ -39,6 +37,7 @@ seeproject4.addEventListener('click', () => {
 });
 
 const cardArray = [{
+  id: 1,
   header: 'Tonic',
   list: ['Canopy', 'Back End Dev', '2015'],
   image: './img/popupdesk.png',
@@ -114,9 +113,9 @@ function dataStorage() {
   localStorage.setItem('formData', JSON.stringify(formData));
 }
 
-nameStore.onchange = dataStorage;
+/* nameStore.onchange = dataStorage;
 emailStore.onchange = dataStorage;
-messageStore.onchange = dataStorage;
+messageStore.onchange = dataStorage; */
 
 const storeData = JSON.parse(localStorage.getItem('formData'));
 

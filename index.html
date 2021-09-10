@@ -345,12 +345,12 @@
       <form action="https://formspree.io/f/moqypzvo" method="post" id="contact-form" >
         <label for="full-name">Full Name</label>
         <input class="text-area" type="text" placeholder="Enter Full name" name="fullname" maxlength="30" id="full-name"
-          required><br>
+          required onchange="dataStorage();"><br>
         <label for="email">Email</label>
-        <input class="text-area" type="email" placeholder="name@gmail.com" id="email" name="email" required><br>
+        <input class="text-area" type="email" placeholder="name@gmail.com" id="email" name="email" required onchange="dataStorage();"><br>
         <label for="msg">Comment</label>
         <textarea class="comment-section" name="usermessage" id="msg" placeholder="Please Write your message here"
-          cols="30" rows="10" maxlength="500" required></textarea><br>
+          cols="30" rows="10" maxlength="500" required onchange="dataStorage();"></textarea><br>
         <button class="end-button" type="submit" name="submit">Get It Touch</button>
      <div id="error" class="form-error"></div>
       </form>
