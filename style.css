@@ -446,6 +446,13 @@ button:hover {
   margin-left: 2%;
 }
 
+.form-error {
+  margin: 7px;
+  text-align: left;
+  color: red;
+  font-size: 12px;
+}
+
 @media screen and (min-width: 900px) {
   .flex-menu {
     display: none;
