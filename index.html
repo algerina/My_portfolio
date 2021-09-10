@@ -3,6 +3,7 @@
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
   <script>
@@ -12,7 +13,7 @@
 
     gtag('config', 'G-G1FFR90YL2');
   </script>
-  <meta charset="UTF-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
@@ -63,7 +64,7 @@
 
     </section>
   </main>
-  <div  class="popup-window" id="popup"></div>
+  <div class="popup-window" id="popup"></div>
 
   <section class="cards">
     <!--desktop cards secrtions-->
@@ -86,7 +87,7 @@
           <li><button class="custom-buttonds" type="button">css</button></li>
           <li><button class="custom-buttonds" type="button">JavaScript</button></li>
         </ul>
-        <button id="buttonds1" class="big-buttonds" type="button">See Project</button>
+        <button id="buttonds1" class="big-buttonds project-button" type="button"  onclick="populatePopup(0);">See Project</button>
       </div>
     </div>
     <!--card2-->
@@ -111,7 +112,7 @@
           <li><button class="custom-buttonds" type="button">css</button></li>
           <li><button class="custom-buttonds" type="button">JavaScript</button></li>
         </ul>
-        <button id="buttonds2" class="big-buttonds" type="button">See Project</button>
+        <button id="buttonds2" class="big-buttonds project-button" type="button"  onclick="populatePopup(1);">See Project</button>
       </div>
       <img class="img-one" src="./img/card2.png" alt="card2">
 
@@ -137,7 +138,7 @@
           <li><button class="custom-buttonds" type="button">css</button></li>
           <li><button class="custom-buttonds" type="button">JavaScript</button></li>
         </ul>
-        <button id="buttonds3" class="big-buttonds" type="button">See Projects</button>
+        <button id="buttonds3" class="big-buttonds project-button" type="button"  onclick="populatePopup(2);">See Projects</button>
       </div>
     </div>
 
@@ -158,9 +159,9 @@
           <li><button class="custom-buttonds" type="button">css</button></li>
           <li><button class="custom-buttonds" type="button">JavaScript</button></li>
         </ul>
-        <button id="buttonds4" class="big-buttonds" type="button">See Project</button>
+        <button id="buttonds4" class="big-buttonds project-button" type="button" onclick="populatePopup(3);">See Project</button>
       </div>
-      <img class="img-one" src="./img/card4.png" alt="card2">
+      <img class="img-one" src="./img/card4.png" alt="card4">
 
 
     </div>
@@ -188,7 +189,8 @@
         <li><button class="custom-button" type="button">css</button></li>
         <li><button class="custom-button" type="button">JavaScript</button></li>
       </ul>
-      <button id="buttonds5" onclick="popupWindow.classList.add('popup-active')" class="big-button" type="button">See Project</button>
+      <button id="buttonds5" onclick="popupWindow.classList.add('popup-active')" class="big-button" type="button">See
+        Project</button>
     </div>
 
     <div class="pageone">
@@ -210,7 +212,8 @@
         <li><button class="custom-button" type="button">css</button></li>
         <li><button class="custom-button" type="button">JavaScript</button></li>
       </ul>
-      <button id="buttonds6" onclick="popupWindow.classList.add('popup-active')" class="big-button" type="button">See Projects</button>
+      <button id="buttonds6" onclick="popupWindow.classList.add('popup-active')" class="big-button" type="button">See
+        Projects</button>
     </div>
 
 
@@ -235,7 +238,8 @@
         <li><button class="custom-button" type="button">css</button></li>
         <li><button class="custom-button" type="button">JavaScript</button></li>
       </ul>
-      <button id="buttonds7" onclick="popupWindow.classList.add('popup-active')" class="big-button" type="button">See Project</button>
+      <button id="buttonds7" onclick="popupWindow.classList.add('popup-active')" class="big-button" type="button">See
+        Project</button>
     </div>
 
 
@@ -259,7 +263,8 @@
         <li><button class="custom-button" type="button">css</button></li>
         <li><button class="custom-button" type="button">JavaScript</button></li>
       </ul>
-      <button id="buttonds8" onclick="popupWindow.classList.add('popup-active')" class="big-button" type="button">See Project</button>
+      <button id="buttonds8" onclick="popupWindow.classList.add('popup-active')" class="big-button" type="button">See
+        Project</button>
     </div>
   </section>
 
@@ -337,21 +342,22 @@
       feature that you need built or a <br> project that needs coding. I’d <br>
       love to help with it </p>
 
-    <form action="https://formspree.io/f/moqypzvo" method="post">
-      <label for="full-name">Full Name</label>
-      <input class="text-area" type="text" placeholder="Enter Full name" name="full-name" maxlength="30" id="full-name"
-        required><br>
-      <label for="email">Email</label>
-      <input class="text-area" type="email" placeholder="name@gmail.com" id="email" name="email" required><br>
-      <label for="msg">Comment</label>
-      <textarea class="comment-section" name="User_message" id="msg" placeholder="Please Write your message here"
-        cols="30" rows="10" maxlength="500" required></textarea><br>
-      <button class="end-button" type="submit" name="submit">Get It Touch</button>
-    </form>
+      <form action="https://formspree.io/f/moqypzvo" method="post" id="contact-form" >
+        <label for="full-name">Full Name</label>
+        <input class="text-area" type="text" placeholder="Enter Full name" name="fullname" maxlength="30" id="full-name"
+          required onchange="dataStorage();"><br>
+        <label for="email">Email</label>
+        <input class="text-area" type="email" placeholder="name@gmail.com" id="email" name="email" required onchange="dataStorage();"><br>
+        <label for="msg">Comment</label>
+        <textarea class="comment-section" name="usermessage" id="msg" placeholder="Please Write your message here"
+          cols="30" rows="10" maxlength="500" required onchange="dataStorage();"></textarea><br>
+        <button class="end-button" type="submit" name="submit">Get It Touch</button>
+     <div id="error" class="form-error"></div>
+      </form>
 
   </footer>
 
-  <script type="text/javascript" src="./main.js"></script>
+  <script src="./main.js"></script>
 </body>
 
 </html>
