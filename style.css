@@ -336,7 +336,7 @@ footer {
   border-radius: 8px;
   padding: 5px 5px 12px 5px;
   margin-top: 8px;
-  color: white;
+  color: black;
 }
 
 .comment-section {
@@ -459,6 +459,13 @@ button:hover {
 
 .headerTwo {
   padding-left: 130px;
+}
+
+.form-error {
+  margin: 7px;
+  text-align: left;
+  color: red;
+  font-size: 12px;
 }
 
 @media screen and (min-width: 900px) {

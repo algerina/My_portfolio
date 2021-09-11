@@ -129,3 +129,4 @@ const populatePopup = (num) => {
   `;
   })
 }
+
