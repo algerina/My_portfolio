@@ -371,6 +371,7 @@ button:hover {
   top: 21px;
   border-radius: 30px;
   display: none;
+  padding: 1rem;
 }
 
 .popup-active {
@@ -385,7 +386,7 @@ button:hover {
   background-repeat: no-repeat;
   height: 218px;
   background-image: url(./img/popupimg.png);
-  width: 335px;
+  max-width: 80%;
   margin-left: 12%;
 }
 
@@ -458,7 +459,7 @@ button:hover {
 }
 
 .headerTwo {
-  padding-left: 130px;
+  padding-left: 2rem;
 }
 
 .form-error {
