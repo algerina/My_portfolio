@@ -366,10 +366,10 @@ button:hover {
 #popup {
   margin-left: 10%;
   position: fixed;
-  width: 411px;
-  height: 560px;
+  height: 687px;
   background-color: white;
   top: 21px;
+  border-radius: 30px;
   display: none;
 }
 
@@ -414,7 +414,7 @@ button:hover {
   display: flex;
   gap: 5px;
   left: 29%;
-  top: 22%;
+  top: 0;
 }
 
 .popup-button {
@@ -444,6 +444,20 @@ button:hover {
 
 .p-popup {
   margin-left: 5%;
+}
+
+.list-ds {
+  display: flex;
+  flex: 1;
+  margin: 1rem 1rem 1rem 1rem;
+  gap: 0.5rem;
+}
+
+.list-ds li {
+  color: darkslategrey;
+}
+.headerTwo {
+  padding-left: 130px;
 }
 
 @media screen and (min-width: 900px) {
@@ -603,7 +617,7 @@ button:hover {
     right: 194px;
     position: fixed;
     width: 1108px;
-    height: 678px;
+    height: 700px;
     background-color: white;
     top: 21px;
     display: none;
