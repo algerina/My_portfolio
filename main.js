@@ -8,13 +8,10 @@ const seeproject3 = document.querySelector('#buttonds3');
 const seeproject4 = document.querySelector('#buttonds4');
 const popupWindow = document.querySelector('#popup');
 
-function show() {
-  hambuMenu.style.display = 'flex';
-}
+const show = () => hambuMenu.style.display = 'flex';
 
-function close() {
-  hambuMenu.style.display = 'none';
-}
+const close = () => hambuMenu.style.display = 'none';
+
 
 menuToggle.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
@@ -51,7 +48,7 @@ const cardArray = [{
 {
   header: 'Tonic',
   list: ['Canopy', 'Back End Dev', '2015'],
-  image: './img/card3.png',
+  image: './img/card2.png',
   text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s',
   listbuttons: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
   live: 'https://algerina.github.io/My_portfolio/',
@@ -116,18 +113,3 @@ const populatePopup = (num) => {
   `;
   })
 }
-// cardArray.forEach((item) => {
-//   popup.innerHTML += `
-//   <span onclick="popupWindow.classList.remove('popup-active')" class="close">X</span>
-// <h2 class="popup-name">
-// ${item.header}
-// </h2>
-// <img  src="${item.image}" class="popup-img">
-// <div class="popup-image-mobile"> </div>
-// <p class="p-popup">${item.text}
-// </p>
-// <ul class="popup-list">
-// <li class="popup-list-item">${item.listbuttons[0]}</li>
-// <li class="popup-list-item">${item.listbuttons[1]}</li>
-// <li class="popup-list-item">${item.listbuttons[2]}</li>
-// <li class="popup-list-item-hidden">${i
