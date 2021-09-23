@@ -7,11 +7,8 @@ const seeproject2 = document.querySelector('#buttonds2');
 const seeproject3 = document.querySelector('#buttonds3');
 const seeproject4 = document.querySelector('#buttonds4');
 const popupWindow = document.querySelector('#popup');
-// const closewindow = document.querySelector('.close');
 
-function show() {
-  hambuMenu.style.display = 'flex';
-}
+const show = () => hambuMenu.style.display = 'flex';
 
 function close() {
   hambuMenu.style.display = 'none';
@@ -39,11 +36,8 @@ seeproject4.addEventListener('click', () => {
   popupWindow.classList.add('popup-active');
 });
 
-// closewindow.addEventListener('click', () => {
-//   popupWindow.classList.remove('popup-active');
-// });
-
 const cardArray = [{
+  id: 1,
   header: 'Tonic',
   list: ['Canopy', 'Back End Dev', '2015'],
   image: './img/popupdesk.png',
@@ -103,3 +97,28 @@ form.addEventListener('submit', (event) => {
     errormsg.innerHTML = '';
   }
 });
+
+const formStorage = document.getElementById('contact-form');
+const nameStore = formStorage.elements.fullname;
+const emailStore = formStorage.elements.email;
+const messageStore = formStorage.elements.usermessage;
+
+function dataStorage() {
+  const formData = {
+
+    name: nameStore.value,
+    email: emailStore.value,
+    message: messageStore.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+/* nameStore.onchange = dataStorage;
+emailStore.onchange = dataStorage;
+messageStore.onchange = dataStorage; */
+
+const storeData = JSON.parse(localStorage.getItem('formData'));
+
+nameStore.value = storeData.name;
+emailStore.value = storeData.email;
+messageStore.value = storeData.message;
