@@ -43,7 +43,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 1rem 0 0 0;
-  background-image: url("./img/test.png");
+  background-image: url("./img/back2.png");
   background-repeat: no-repeat;
   background-size: contain;
   border-bottom-left-radius: 140px;
@@ -523,9 +523,11 @@ button:hover {
     display: grid;
     align-items: center;
     justify-items: left;
-    background-image: url("./img/bgxxl.png");
+    background-image: url("./img/back2.png");
     margin: 20px 10px 10px 10px;
     border-bottom-left-radius: 140px;
+    background-repeat: ;
+    background-size: contain;
   }
 
   .small-text {
