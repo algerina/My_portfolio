@@ -348,6 +348,8 @@ footer {
 
 .desktop-toolbar {
   display: none;
+  display: flex;
+  padding-left: 50rem;
 }
 
 input:focus,
@@ -473,6 +475,16 @@ button:hover {
   .flex-menu {
     display: none;
   }
+
+  
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem 1rem 1.5rem;
+  position: fixed;
+  background: white;
+}
 
   .desktop-toolbar a {
     color: blue;
