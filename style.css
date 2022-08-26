@@ -497,7 +497,9 @@ button:hover {
   width: 100%;
 }
 
-
+.flex-logo {
+  margin-left: 1rem;
+}
 
 
   .desktop-toolbar a {
