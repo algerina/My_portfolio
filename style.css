@@ -16,7 +16,7 @@ body {
   width: 100%;
   margin: auto;
 }
-
+/* 
 .nav-container {
   
   display: flex;
@@ -25,6 +25,9 @@ body {
   padding: 1rem 1rem 1rem 1.5rem;
   position: fixed;
   background-color: white;
+} */
+.hambu-icon {
+display:flex;
 }
 
 .nav-container a {
@@ -487,6 +490,7 @@ button:hover {
   padding: 1rem 1rem 1rem 1.5rem;
   position: fixed;
   background-color: white;
+  width: 100%;
 }
 
 
