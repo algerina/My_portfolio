@@ -24,7 +24,7 @@ const cardArray = [
         id: 0,
         header: 'Wishyacht',
         header2: 'Microverse',
-        headerlist: ['Full Stack Dev', '2022'],
+        heaederlist: ['Full Stack Dev', '2022'],
         list: ['Microverse', 'Full Stack Dev'],
         image: './img/rent-yacht.jpg',
         text: 'This is a Web application where users should sign in to rent a Yacht from a list and then reserve it for a determined period, users can then see their reservations or cancel them.',
@@ -46,18 +46,6 @@ const cardArray = [
     },
     {
         id: 2,
-        header: 'To-do list',
-        header2: 'Microverse',
-        heaederlist: ['Front End Dev', '2021'],
-        list: ['Microverse', 'Front End Dev'],
-        image: './img/screen.JPG',
-        text: 'This is a minimalist and simple To-Do list. It simply lists the things needed to do and allows to mark them as complete.',
-        listbuttons: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
-        live: 'https://algerina.github.io/My-To-do-list/dist/',
-        source: 'https://github.com/algerina/My-To-do-list',
-    },
-    {
-        id: 3,
         header: 'Capstone1',
         header2: 'Facebook',
         heaederlist: ['Front end Dev', '2021'],
@@ -69,7 +57,7 @@ const cardArray = [
         source: 'https://github.com/algerina/Capstone1',
     },
     {
-        id: 4,
+        id: 3,
         header: 'Awesome books',
         header2: 'Microverse',
         heaederlist: ['Full Stack Dev', '2021'],
@@ -79,18 +67,6 @@ const cardArray = [
         listbuttons: ['html', 'css', 'javascript', 'github'],
         live: 'https://algerina.github.io/Awesome-books/',
         source: 'https://github.com/algerina/Awesome-books',
-    },
-    {
-        id: 5,
-        header: 'Uber Navigation',
-        heaederlist: ['Lead Developer', '2018'],
-        header2: 'Uber',
-        list: ['Uber', 'Lead developer', '2018'],
-        image: './img/card4.png',
-        text: 'A smart assistant to make driving more safe, efficient, and fun <br> by unlocking your most expensive computer: your car.',
-        listbuttons: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
-        live: 'https://algerina.github.io/My_portfolio/',
-        source: 'https://github.com/algerina',
     }
 ];
 
