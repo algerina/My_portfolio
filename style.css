@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+/* stylelint-disable */
 
 * {
   padding: 0;
@@ -24,16 +25,7 @@ body {
   width: 100%;
   margin: auto;
 }
-/* 
-.nav-container {
-  
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 1rem 1rem 1.5rem;
-  position: fixed;
-  background-color: white;
-} */
+
 .hambu-icon {
   display: flex;
 }
@@ -57,7 +49,6 @@ body {
   display: flex;
   flex-direction: column;
   padding: 1rem 0 0 0;
-  /* background-image: url("./img/marek-piwnicki.jpg"); */
   background-repeat: no-repeat;
   background-size: contain;
   border-bottom-left-radius: 140px;
@@ -71,7 +62,6 @@ body {
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  /* display: flex; */
   align-items: center;
   color: #172b4d;
   flex: none;
@@ -494,7 +484,6 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 1rem 1rem 1rem 1.5rem; */
     position: fixed;
     background-color: white;
     width: 100%;
@@ -553,10 +542,8 @@ button:hover {
     display: grid;
     align-items: center;
     justify-items: left;
-    /* background-image: url("./img/marek-piwnicki.jpg"); */
     margin: 20px 10px 10px 10px;
     border-bottom-left-radius: 140px;
-    /* background-repeat: ; */
     background-size: contain;
     margin-top: 6rem;
   }
@@ -757,7 +744,6 @@ button:hover {
   .context {
     width: 100%;
     position: absolute;
-    /* top:10vh; */
   }
 
   .context h1 {
