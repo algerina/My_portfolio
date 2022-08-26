@@ -19,7 +19,7 @@ body {
 
 .nav-container {
   
-  display: none;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1rem 1rem 1.5rem;
@@ -33,7 +33,7 @@ body {
   font-size: 1.4rem;
   text-transform: capitalize;
   text-decoration: none;
-  color: blue;
+  color: #6070ff;
 }
 
 .flex-menu {
@@ -46,7 +46,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 1rem 0 0 0;
-  background-image: url("./img/marek-piwnicki.jpg");
+  /* background-image: url("./img/marek-piwnicki.jpg"); */
   background-repeat: no-repeat;
   background-size: contain;
   border-bottom-left-radius: 140px;
@@ -90,7 +90,7 @@ body {
 .blue-text a {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  color: blue;
+  color: #6070ff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -313,7 +313,7 @@ footer {
   background-color: white;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border: 1px solid #fff;
-  color: blue;
+  color: #6070ff;
 }
 
 .frame {
@@ -493,7 +493,7 @@ button:hover {
 
 
   .desktop-toolbar a {
-    color: blue;
+    color: #6070ff;
   }
 
   .header-class ul {
@@ -541,7 +541,7 @@ button:hover {
     display: grid;
     align-items: center;
     justify-items: left;
-    background-image: url("./img/marek-piwnicki.jpg");
+    /* background-image: url("./img/marek-piwnicki.jpg"); */
     margin: 20px 10px 10px 10px;
     border-bottom-left-radius: 140px;
     /* background-repeat: ; */
@@ -740,4 +740,12 @@ button:hover {
   .popup-image-mobile {
     display: none;
   }
+  .bg-animated {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
 }
