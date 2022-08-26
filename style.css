@@ -12,6 +12,10 @@ body {
   margin: 0;
 }
 
+.flex-logo {
+  margin-left: 3px;
+}
+
 .header-class {
   width: 100%;
   margin: auto;
@@ -83,7 +87,7 @@ display:flex;
   font-size: 20px;
   line-height: 24px;
   text-align: left;
-  color: #344563;
+  color: #d7dde7;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -93,7 +97,7 @@ display:flex;
 .blue-text a {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  color: #6070ff;
+  color: white;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -268,7 +272,7 @@ li {
 }
 
 footer {
-  background-color: #6070ff;
+  background-color: #4e54c8;
   border-top-left-radius: 140px;
   display: flex;
   flex-direction: column;
@@ -745,13 +749,11 @@ button:hover {
     display: none;
   }
 
-
-  
 .context {
   width: 100%;
   position: absolute;
-  top:50vh;
-  
+  top:10vh;
+
 }
 
 .context h1{
@@ -759,7 +761,6 @@ button:hover {
   color: #fff;
   font-size: 50px;
 }
-
 
 .area{
   background: #4e54c8;  
