@@ -71,7 +71,7 @@ display:flex;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   color: #172b4d;
   flex: none;
