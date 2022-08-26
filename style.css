@@ -12,6 +12,10 @@ body {
   margin: 0;
 }
 
+.blue-text {
+  color: #6070ff;
+}
+
 .flex-logo {
   margin-left: 3px;
 }
@@ -237,8 +241,8 @@ li {
   border-radius: 8px;
   border: 2px solid #396df2;
   padding: 10px;
-  color: #396df2;
-  background-color: transparent;
+  color: white;
+  background-color: #396df2;
 }
 
 .about-me {
@@ -332,7 +336,6 @@ footer {
 
 .M-25 {
   margin-left: 25px;
-  color: #6070ff;
 }
 
 .skill {
