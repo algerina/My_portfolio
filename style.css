@@ -489,8 +489,7 @@ button:hover {
   .flex-menu {
     display: none;
   }
-
-  
+ 
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -504,7 +503,6 @@ button:hover {
 .flex-logo {
   margin-left: 3rem;
 }
-
 
   .desktop-toolbar a {
     color: #6070ff;
@@ -756,6 +754,7 @@ button:hover {
     display: none;
   }
 
+
 .context {
   width: 100%;
   position: absolute;
@@ -773,8 +772,7 @@ button:hover {
   background: #4e54c8;  
   background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
   width: 100%;
-  height:100vh;
-  
+  height:100vh; 
  
 }
 
@@ -805,7 +803,6 @@ button:hover {
   height: 80px;
   animation-delay: 0s;
 }
-
 
 .circles li:nth-child(2){
   left: 10%;
@@ -875,8 +872,6 @@ button:hover {
   animation-duration: 11s;
 }
 
-
-
 @keyframes animate {
 
   0%{
@@ -892,6 +887,5 @@ button:hover {
   }
 
 }
-
 
 }

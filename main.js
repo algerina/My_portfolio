@@ -10,7 +10,9 @@ const popupWindow = document.querySelector('#popup');
 
 const show = () => hambuMenu.style.display = 'flex';
 
+
 const close = () => hambuMenu.style.display = 'none';
+
 
 
 menuToggle.addEventListener('click', show);
@@ -109,6 +111,7 @@ cardArray.forEach(project => {
         </div>`;
 });
 
+
 if (window.innerWidth < 901) {
     cardArray.forEach(project => {
         mobileCardsContainer.innerHTML += `
@@ -133,6 +136,21 @@ if (window.innerWidth < 901) {
         `;
     });
 }
+=======
+const cardArray = [{
+  id: 1,
+  header: 'Tonic',
+  list: ['Canopy', 'Back End Dev', '2015'],
+  image: './img/popupdesk.png',
+  text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s',
+  listbuttons: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstrap'],
+  live: 'https://algerina.github.io/My_portfolio/',
+  source: 'https://github.com/algerina',
+
+},
+
+];
+
 
 const popup = document.getElementById('popup');
 const projectButtons = document.querySelectorAll('.project-button');
@@ -175,4 +193,40 @@ const populatePopup = (num) => {
   `;
   })
 }
+
+
+form.addEventListener('submit', (event) => {
+  if (!Lowercase(formEmail.value)) {
+    errormsg.innerHTML = 'The Email Address has to be Lower Case';
+    formEmail.classList.add('email-error');
+    event.preventDefault();
+  } else {
+    errormsg.innerHTML = '';
+  }
+});
+
+const formStorage = document.getElementById('contact-form');
+const nameStore = formStorage.elements.fullname;
+const emailStore = formStorage.elements.email;
+const messageStore = formStorage.elements.usermessage;
+
+function dataStorage() {
+  const formData = {
+
+    name: nameStore.value,
+    email: emailStore.value,
+    message: messageStore.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+/* nameStore.onchange = dataStorage;
+emailStore.onchange = dataStorage;
+messageStore.onchange = dataStorage; */
+
+const storeData = JSON.parse(localStorage.getItem('formData'));
+
+nameStore.value = storeData.name;
+emailStore.value = storeData.email;
+messageStore.value = storeData.message;
 
