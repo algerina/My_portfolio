@@ -18,7 +18,8 @@ body {
 }
 
 .nav-container {
-  display: flex;
+  
+  display: none;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1rem 1rem 1.5rem;
@@ -45,7 +46,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 1rem 0 0 0;
-  background-image: url("./img/back2.png");
+  background-image: url("./img/marek-piwnicki.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   border-bottom-left-radius: 140px;
@@ -478,6 +479,17 @@ button:hover {
     display: none;
   }
 
+  
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem 1rem 1.5rem;
+  position: fixed;
+  background-color: white;
+}
+
+
 
 
   .desktop-toolbar a {
@@ -529,10 +541,10 @@ button:hover {
     display: grid;
     align-items: center;
     justify-items: left;
-    background-image: url("./img/back2.png");
+    background-image: url("./img/marek-piwnicki.jpg");
     margin: 20px 10px 10px 10px;
     border-bottom-left-radius: 140px;
-    background-repeat: ;
+    /* background-repeat: ; */
     background-size: contain;
   }
 
