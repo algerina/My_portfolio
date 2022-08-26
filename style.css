@@ -556,6 +556,7 @@ button:hover {
     border-bottom-left-radius: 140px;
     /* background-repeat: ; */
     background-size: contain;
+    margin-top: 6rem;
   }
 
   .small-text {
@@ -754,7 +755,7 @@ button:hover {
 .context {
   width: 100%;
   position: absolute;
-  top:10vh;
+  /* top:10vh; */
 
 }
 
