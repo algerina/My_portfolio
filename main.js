@@ -1,94 +1,93 @@
-const hambuMenu = document.querySelector('.hambu-menu');
-const closeMenu = document.querySelector('.x-img');
-const menuToggle = document.querySelector('#menu-toggle');
-const hambuChilds = document.querySelectorAll('.hambu-child');
-const seeproject1 = document.querySelector('#buttonds1');
-const seeproject2 = document.querySelector('#buttonds2');
-const seeproject3 = document.querySelector('#buttonds3');
-const seeproject4 = document.querySelector('#buttonds4');
-const popupWindow = document.querySelector('#popup');
+const hambuMenu = document.querySelector(".hambu-menu");
+const closeMenu = document.querySelector(".x-img");
+const menuToggle = document.querySelector("#menu-toggle");
+const hambuChilds = document.querySelectorAll(".hambu-child");
+const seeproject1 = document.querySelector("#buttonds1");
+const seeproject2 = document.querySelector("#buttonds2");
+const seeproject3 = document.querySelector("#buttonds3");
+const seeproject4 = document.querySelector("#buttonds4");
+const popupWindow = document.querySelector("#popup");
 
-const show = () => hambuMenu.style.display = 'flex';
+const show = () => (hambuMenu.style.display = "flex");
 
+const close = () => (hambuMenu.style.display = "none");
 
-const close = () => hambuMenu.style.display = 'none';
-
-
-
-menuToggle.addEventListener('click', show);
-closeMenu.addEventListener('click', close);
+menuToggle.addEventListener("click", show);
+closeMenu.addEventListener("click", close);
 hambuChilds.forEach((chld) => {
-  chld.addEventListener('click', close);
+  chld.addEventListener("click", close);
 });
 
 const cardArray = [
-    {
-        id: 0,
-        header: 'Wishyacht',
-        header2: 'Microverse',
-        heaederlist: ['Full Stack Dev', '2022'],
-        list: ['Microverse', 'Full Stack Dev'],
-        image: './img/rent-yacht.jpg',
-        text: 'This is a Web application where users should sign in to rent a Yacht from a list and then reserve it for a determined period, users can then see their reservations or cancel them.',
-        listbuttons: ['React','Ruby on Rails', 'Bootstrap'],
-        live: 'https://wishyacht.netlify.app/login/',
-        source: 'https://github.com/algerina/rent-yacht-frontend',
-    },
-    {
-        id: 1,
-        header: 'Wallet',
-        header2: 'Microverse',
-        heaederlist: ['Full Stack Dev', '2022'],
-        list: ['Microverse', 'Full Stack Dev'],
-        image: './img/wallet.jpg',
-        text: 'This is a minimalist and simple To-Do list. It simply lists the things needed to do and allows to mark them as complete.',
-        listbuttons: ['Ruby on Rails', 'Bootstrap'],
-        live: 'https://shrouded-dusk-01690.herokuapp.com/',
-        source: 'https://github.com/algerina/yourWallet',
-    },
-    {
-        id: 2,
-        header: 'MMC Barcelona',
-        header2: 'Facebook',
-        heaederlist: ['Front end Dev', '2021'],
-        list: ['Microverse', 'Front End Dev', '2021'],
-        image: './img/capstonescreen1.JPG',
-        text: 'This project is my first Microverse Front End Capstone project using Front end tools.',
-        listbuttons: ['html', 'css', 'javascript', 'github', 'bootstrap'],
-        live: 'https://rawcdn.githack.com/algerina/Capstone1/7cebc30ff90cfef9437b1af73ec6f73c73f79ff9/index.html',
-        source: 'https://github.com/algerina/Capstone1',
-    },
-    {
-        id: 3,
-        header: 'Awesome books',
-        header2: 'Microverse',
-        heaederlist: ['Full Stack Dev', '2021'],
-        list: ['Microverse', 'Back End Dev', '2021'],
-        image: './img/Books.png',
-        text: "This project consists of building a basic website that allows users to add/remove books from a list.",
-        listbuttons: ['html', 'css', 'javascript', 'github'],
-        live: 'https://algerina.github.io/Awesome-books/',
-        source: 'https://github.com/algerina/Awesome-books',
-    },
-    {
-        id: 4,
-        header: 'To-do list',
-        header2: 'Microverse',
-        heaederlist: ['Front End Dev', '2021'],
-        list: ['Microverse', 'Front End Dev'],
-        image: './img/screen.JPG',
-        text: 'This is a minimalist and simple To-Do list. It simply lists the things needed to do and allows to mark them as complete.',
-        listbuttons: ['html', 'css', 'javascript'],
-        live: 'https://algerina.github.io/My-To-do-list/dist/',
-        source: 'https://github.com/algerina/My-To-do-list',
-    }
+  {
+    id: 0,
+    header: "Wishyacht",
+    header2: "Microverse",
+    heaederlist: ["2022"],
+    list: ["Microverse"],
+    image: "./img/rent-yacht.jpg",
+    text: "This is a Web application where users should sign in to rent a Yacht from a list and then reserve it for a determined period, users can then see their reservations or cancel them.",
+    listbuttons: ["React", "Ruby on Rails", "Bootstrap"],
+    live: "https://wishyacht.netlify.app/login/",
+    source: "https://github.com/algerina/rent-yacht-frontend",
+  },
+  {
+    id: 1,
+    header: "Wallet",
+    header2: "Microverse",
+    heaederlist: ["Full Stack Dev", "2022"],
+    list: ["Microverse", "Full Stack Dev"],
+    image: "./img/wallet.jpg",
+    text: "This is a minimalist and simple To-Do list. It simply lists the things needed to do and allows to mark them as complete.",
+    listbuttons: ["Ruby on Rails", "Bootstrap"],
+    live: "https://shrouded-dusk-01690.herokuapp.com/",
+    source: "https://github.com/algerina/yourWallet",
+  },
+  {
+    id: 2,
+    header: "MMC Barcelona",
+    header2: "Facebook",
+    heaederlist: ["Front end Dev", "2021"],
+    list: ["Microverse", "Front End Dev", "2021"],
+    image: "./img/capstonescreen1.JPG",
+    text: "This project is my first Microverse Front End Capstone project using Front end tools.",
+    listbuttons: ["html", "css", "javascript", "github", "bootstrap"],
+    live: "https://rawcdn.githack.com/algerina/Capstone1/7cebc30ff90cfef9437b1af73ec6f73c73f79ff9/index.html",
+    source: "https://github.com/algerina/Capstone1",
+  },
+  {
+    id: 3,
+    header: "Awesome books",
+    header2: "Microverse",
+    heaederlist: ["Full Stack Dev", "2021"],
+    list: ["Microverse", "Back End Dev", "2021"],
+    image: "./img/Books.png",
+    text: "This project consists of building a basic website that allows users to add/remove books from a list.",
+    listbuttons: ["html", "css", "javascript", "github"],
+    live: "https://algerina.github.io/Awesome-books/",
+    source: "https://github.com/algerina/Awesome-books",
+  },
+  {
+    id: 4,
+    header: "To-do list",
+    header2: "Microverse",
+    heaederlist: ["Front End Dev", "2021"],
+    list: ["Microverse", "Front End Dev"],
+    image: "./img/screen.JPG",
+    text: "This is a minimalist and simple To-Do list. It simply lists the things needed to do and allows to mark them as complete.",
+    listbuttons: ["html", "css", "javascript"],
+    live: "https://algerina.github.io/My-To-do-list/dist/",
+    source: "https://github.com/algerina/My-To-do-list",
+  },
 ];
 
-const desktopCardsContainer = document.querySelector('#cards-container-desktop');
-const mobileCardsContainer = document.querySelector('#portfolio');
+const desktopCardsContainer = document.querySelector(
+  "#cards-container-desktop"
+);
+const mobileCardsContainer = document.querySelector("#portfolio");
 
-cardArray.forEach(project => {
-    desktopCardsContainer.innerHTML += `
+cardArray.forEach((project) => {
+  desktopCardsContainer.innerHTML += `
         <div class="card">
             <img class="img-one" src="${project.image}" alt="project thumbnail">
             <div class="grid-cardone">
@@ -111,10 +110,9 @@ cardArray.forEach(project => {
         </div>`;
 });
 
-
 if (window.innerWidth < 901) {
-    cardArray.forEach(project => {
-        mobileCardsContainer.innerHTML += `
+  cardArray.forEach((project) => {
+    mobileCardsContainer.innerHTML += `
         <div class="pageone">
             <img class="card-image" src="${project.image}" alt="portfolio-snapshoot1">
             <h1 class="left">${project.header}</h1>
@@ -134,30 +132,15 @@ if (window.innerWidth < 901) {
             <button id="buttonds5" onclick="populatePopup(${project.id});" class="big-button" type="button">See Project</button>
         </div>
         `;
-    });
+  });
 }
-=======
-const cardArray = [{
-  id: 1,
-  header: 'Tonic',
-  list: ['Canopy', 'Back End Dev', '2015'],
-  image: './img/popupdesk.png',
-  text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s',
-  listbuttons: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstrap'],
-  live: 'https://algerina.github.io/My_portfolio/',
-  source: 'https://github.com/algerina',
 
-},
-
-];
-
-
-const popup = document.getElementById('popup');
-const projectButtons = document.querySelectorAll('.project-button');
+const popup = document.getElementById("popup");
+const projectButtons = document.querySelectorAll(".project-button");
 
 const populatePopup = (num) => {
   projectButtons.forEach(() => {
-    popupWindow.classList.add('popup-active');
+    popupWindow.classList.add("popup-active");
     popup.innerHTML = `
     <span onclick="popupWindow.classList.remove('popup-active')" class="close">X</span>
   <h2 class="popup-name">
@@ -191,42 +174,5 @@ const populatePopup = (num) => {
         </form>
         <div/>
   `;
-  })
-}
-
-
-form.addEventListener('submit', (event) => {
-  if (!Lowercase(formEmail.value)) {
-    errormsg.innerHTML = 'The Email Address has to be Lower Case';
-    formEmail.classList.add('email-error');
-    event.preventDefault();
-  } else {
-    errormsg.innerHTML = '';
-  }
-});
-
-const formStorage = document.getElementById('contact-form');
-const nameStore = formStorage.elements.fullname;
-const emailStore = formStorage.elements.email;
-const messageStore = formStorage.elements.usermessage;
-
-function dataStorage() {
-  const formData = {
-
-    name: nameStore.value,
-    email: emailStore.value,
-    message: messageStore.value,
-  };
-  localStorage.setItem('formData', JSON.stringify(formData));
-}
-
-/* nameStore.onchange = dataStorage;
-emailStore.onchange = dataStorage;
-messageStore.onchange = dataStorage; */
-
-const storeData = JSON.parse(localStorage.getItem('formData'));
-
-nameStore.value = storeData.name;
-emailStore.value = storeData.email;
-messageStore.value = storeData.message;
-
+  });
+};
