@@ -14,7 +14,7 @@ body {
 }
 
 .hambu-icon {
-  background-color: white;
+  /* background-color: white; */
   display:flex;
 }
 .area {
@@ -180,8 +180,10 @@ body {
   font-size: 1.4rem;
   text-transform: capitalize;
   text-decoration: none;
-  /* color: #6070ff; */
-  color:white;
+  color: #6070ff;
+  border-style: solid;
+  border-color: #ebebff;
+
 }
 
 .flex-menu {
@@ -528,6 +530,7 @@ button:hover {
 
 .popup-active {
   display: block !important;
+  border: 2px solid #3f51b5
 }
 
 .popup-img {
@@ -584,7 +587,6 @@ button:hover {
   left: 88%;
   font-size: 29px;
   display: inline-block;
-  transform: rotate(90deg);
   font-weight: 500;
   cursor: pointer;
   user-select: none;
